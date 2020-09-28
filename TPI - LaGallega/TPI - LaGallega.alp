@@ -1943,6 +1943,7 @@ ped.cantidadProductosComprados += Math.round(uniform_discr(1, 10));
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
+					<PresentationId>1601229650775</PresentationId>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
 						<ClassName><![CDATA[PedService]]></ClassName>
@@ -18571,6 +18572,25 @@ ped.cantidadProductosComprados += Math.round(uniform_discr(1, 10));
 						<Title><![CDATA[Tiempo promedio en cola]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
+				<EmbeddedObjectPresentation>
+					<Id>1601229650775</Id>
+					<Name><![CDATA[comprarPanaderia_presentation]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<DrawingMode>AGENT_CURRENT_POSITION</DrawingMode>
+					<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
+					<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
+					<GISScaleForFixedEmbeddedObjectPresentationSize>1000000000</GISScaleForFixedEmbeddedObjectPresentationSize>
+					<Latitude>0.0</Latitude>
+					<Longitude>0.0</Longitude>
+				</EmbeddedObjectPresentation>
 			</Presentation>
 
 				</Level>
@@ -18815,6 +18835,21 @@ ped.cantidadProductosComprados += Math.round(uniform_discr(1, 10));
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1601231675836</Id>
+					<Name><![CDATA[serviceBebidas]]></Name>
+					<X>580</X><Y>280</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[randomTrue(0.5);]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="Parameter">
 					<Id>1600281027827</Id>
 					<Name><![CDATA[cantidadProductos]]></Name>
@@ -18958,6 +18993,22 @@ if (this.gondolaBebidas==true)
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Body><![CDATA[this.gondolasRestantes = gondolas.size();]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1601229304031</Id>
+					<Name><![CDATA[cargarServicios]]></Name>
+					<X>440</X><Y>330</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[ServiceBase arrayServices = new ServiceBase();
+if(this.serviceBebidas == true){
+arrayServices.addService(Main.colaCarniceria);
+}
+]]></Body>
 				</Function>
 			</Functions>
 			<AgentLinks>

@@ -17,6 +17,7 @@
 			<Id>1597066027366</Id>
 			<Name><![CDATA[Main]]></Name>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<Import><![CDATA[import org.eclipse.jdt.internal.compiler.batch.Main;]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1597066027364</Id>
@@ -1531,13 +1532,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-90</X><Y>-120</Y></Point>
+						<Point><X>0</X><Y>-120</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1600264437569</Id>
 					<Name><![CDATA[connector42]]></Name>
-					<X>590</X><Y>1450</Y>
+					<X>680</X><Y>1450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1564,7 +1565,10 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>-150</Y></Point>
+						<Point><X>30</X><Y>0</Y></Point>
+						<Point><X>30</X><Y>-100</Y></Point>
+						<Point><X>-120</X><Y>-100</Y></Point>
+						<Point><X>-120</X><Y>-150</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -1767,6 +1771,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[comfortableSpeed]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[normal(0.20, 1)]]></Code>
+								<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[initialSpeed]]></Name>
@@ -3193,7 +3201,7 @@ estadisticas_cola.add(N_Cola, time());]]></Code>
 				<EmbeddedObject>
 					<Id>1597694040782</Id>
 					<Name><![CDATA[comprarVerduleria]]></Name>
-					<X>550</X><Y>1440</Y>
+					<X>640</X><Y>1440</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
