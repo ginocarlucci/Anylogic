@@ -17,6 +17,7 @@
 			<Id>1597066027366</Id>
 			<Name><![CDATA[Main]]></Name>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<StartupCode><![CDATA[densityMap.display(false);]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1597066027364</Id>
@@ -132,6 +133,21 @@
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1601331026696</Id>
+					<Name><![CDATA[densityEnabled]]></Name>
+					<X>350</X><Y>1210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[boolean]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[false]]></Code>
+						</InitialValue>
 					</Properties>
 				</Variable>
 			</Variables>
@@ -1751,6 +1767,21 @@
 					</Points>
 				</Connector>
 			</Connectors>
+			<Functions>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[boolean]]></ReturnType>
+					<Id>1601335176464</Id>
+					<Name><![CDATA[toggleDensity]]></Name>
+					<X>350</X><Y>1180</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[densityEnabled = !densityEnabled;
+densityMap.display(densityEnabled);]]></Body>
+				</Function>
+			</Functions>
 			<AnalysisData>
     			<Statistics>
 					<Id>1600293406951</Id>
@@ -20057,6 +20088,46 @@
 						<Point><X>50</X><Y>0</Y></Point>
 					</Points>
 				</TargetLine>
+				<DensityMap>
+					<Id>1601329998745</Id>
+					<Name><![CDATA[densityMap]]></Name>
+					<X>80</X><Y>700</Y>
+					<Label><X>-15</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Width>10</Width>
+					<Height>200</Height>
+					<EnableAttenuation>true</EnableAttenuation>
+					<Transparency>0.17</Transparency>
+					<CriticalDensity>1.5</CriticalDensity>
+					<Type>PEDESTRIAN</Type>
+					<ColorScheme>LOGARITHMIC</ColorScheme>
+				</DensityMap>
+				<Control Type="CheckBox">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1601330008453</Id>
+					<Name><![CDATA[cbDensityMap]]></Name>
+					<X>20</X><Y>650</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="100" Height="30">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor/>
+						<Enabled>true</Enabled>
+						<ActionCode><![CDATA[toggleDensity();]]></ActionCode>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<LabelText><![CDATA[Mapa calor]]></LabelText>
+						<LinkTo>true</LinkTo>
+	 				</ExtendedProperties>
+				</Control>
 			</Presentation>
 
 				</Level>
@@ -20402,7 +20473,7 @@ this.cantidadProductosAComprar();]]></StartupCode>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[double]]></Type>        
+						<Type><![CDATA[boolean]]></Type>        
 					</Properties>
 				</Variable>
 				<Variable Class="Parameter">
