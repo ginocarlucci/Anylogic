@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201426" AlpVersion="8.5.7">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201438" AlpVersion="8.5.7">
 <Model>
 	<Id>1597066027360</Id>
 	<Name><![CDATA[TPI - LaGallega]]></Name>
@@ -114,7 +114,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1600293406935</Id>
 					<Name><![CDATA[N_Cola]]></Name>
-					<X>60</X><Y>1460</Y>
+					<X>40</X><Y>1460</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -126,7 +126,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1600293406937</Id>
 					<Name><![CDATA[N_Sistema]]></Name>
-					<X>60</X><Y>1490</Y>
+					<X>40</X><Y>1490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -153,7 +153,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601579435985</Id>
 					<Name><![CDATA[cantidadProductosAlmacen]]></Name>
-					<X>-620</X><Y>500</Y>
+					<X>40</X><Y>1590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -165,7 +165,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601933986889</Id>
 					<Name><![CDATA[cantidadProductosBebidas]]></Name>
-					<X>-620</X><Y>520</Y>
+					<X>40</X><Y>1610</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -177,7 +177,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601934005348</Id>
 					<Name><![CDATA[cantidadProductosSnacks]]></Name>
-					<X>-620</X><Y>540</Y>
+					<X>40</X><Y>1630</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -189,7 +189,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601934022536</Id>
 					<Name><![CDATA[cantidadProductosVestimenta]]></Name>
-					<X>-620</X><Y>560</Y>
+					<X>40</X><Y>1650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -201,7 +201,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601934031915</Id>
 					<Name><![CDATA[cantidadProductosBazar]]></Name>
-					<X>-620</X><Y>580</Y>
+					<X>40</X><Y>1670</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -213,7 +213,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601934070052</Id>
 					<Name><![CDATA[cantidadProductosLimpieza]]></Name>
-					<X>-620</X><Y>600</Y>
+					<X>40</X><Y>1690</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -225,7 +225,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601934075583</Id>
 					<Name><![CDATA[cantidadProductosCongelados]]></Name>
-					<X>-620</X><Y>620</Y>
+					<X>40</X><Y>1710</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -237,7 +237,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601934080548</Id>
 					<Name><![CDATA[cantidadProductosBodega]]></Name>
-					<X>-620</X><Y>640</Y>
+					<X>40</X><Y>1730</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -249,7 +249,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1601934087162</Id>
 					<Name><![CDATA[cantidadProductosConservas]]></Name>
-					<X>-620</X><Y>660</Y>
+					<X>40</X><Y>1750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -261,13 +261,169 @@
 				<Variable Class="PlainVariable">
 					<Id>1601934094720</Id>
 					<Name><![CDATA[cantidadProductosAperitivos]]></Name>
-					<X>-620</X><Y>680</Y>
+					<X>40</X><Y>1770</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990643</Id>
+					<Name><![CDATA[NroVisitasAlmacen]]></Name>
+					<X>60</X><Y>1820</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990646</Id>
+					<Name><![CDATA[NroVisitasBebidas]]></Name>
+					<X>60</X><Y>1840</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990648</Id>
+					<Name><![CDATA[NroVisitasSnacks]]></Name>
+					<X>60</X><Y>1860</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990650</Id>
+					<Name><![CDATA[NroVisitasVestimenta]]></Name>
+					<X>60</X><Y>1880</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990652</Id>
+					<Name><![CDATA[NroVisitasBazar]]></Name>
+					<X>60</X><Y>1900</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990654</Id>
+					<Name><![CDATA[NroVisitasLimpieza]]></Name>
+					<X>60</X><Y>1920</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990656</Id>
+					<Name><![CDATA[NroVisitasCongelados]]></Name>
+					<X>60</X><Y>1940</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990658</Id>
+					<Name><![CDATA[NroVisitasBodega]]></Name>
+					<X>60</X><Y>1960</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990660</Id>
+					<Name><![CDATA[NroVisitasConservas]]></Name>
+					<X>60</X><Y>1980</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602285990662</Id>
+					<Name><![CDATA[NroVisitasAperitivos]]></Name>
+					<X>60</X><Y>2000</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602286845635</Id>
+					<Name><![CDATA[cajaRapida]]></Name>
+					<X>50</X><Y>2040</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602286854163</Id>
+					<Name><![CDATA[cajaEspecial]]></Name>
+					<X>50</X><Y>2060</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1602286863514</Id>
+					<Name><![CDATA[cajaOrdinaria]]></Name>
+					<X>50</X><Y>2080</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
 					</Properties>
 				</Variable>
 			</Variables>
@@ -2223,7 +2379,7 @@ densityMap.display(densityEnabled);]]></Body>
     			<Statistics>
 					<Id>1600293406951</Id>
 					<Name><![CDATA[estadisticas_cola]]></Name>
-					<X>60</X><Y>1520</Y>
+					<X>40</X><Y>1520</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2244,7 +2400,7 @@ densityMap.display(densityEnabled);]]></Body>
     			<Statistics>
 					<Id>1600293406954</Id>
 					<Name><![CDATA[estadisticas_sistema]]></Name>
-					<X>60</X><Y>1550</Y>
+					<X>40</X><Y>1550</Y>
 					<Label><X>15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3562,7 +3718,8 @@ estadisticas_cola.add(N_Cola, time());]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola--;
-estadisticas_cola.add(N_Cola, time());]]></Code>
+estadisticas_cola.add(N_Cola, time());
+cajaRapida += 1;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3675,7 +3832,8 @@ estadisticas_cola.add(N_Cola, time());]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola--;
-estadisticas_cola.add(N_Cola, time());]]></Code>
+estadisticas_cola.add(N_Cola, time());
+cajaOrdinaria += 1;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3788,7 +3946,8 @@ estadisticas_cola.add(N_Cola, time());]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola--;
-estadisticas_cola.add(N_Cola, time());]]></Code>
+estadisticas_cola.add(N_Cola, time());
+cajaEspecial += 1;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4299,7 +4458,8 @@ estadisticas_cola.add(N_Cola, time());]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosAlmacen += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosAlmacen += ped.cantidadProductosComprados;
+this.NroVisitasAlmacen += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4414,7 +4574,8 @@ this.cantidadProductosAlmacen += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosBebidas += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosBebidas += ped.cantidadProductosComprados;
+this.NroVisitasBebidas += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4529,7 +4690,8 @@ this.cantidadProductosBebidas += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosBazar += ped.cantidadProductosComprados;
+this.NroVisitasBazar += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4644,7 +4806,8 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosCongelados += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosCongelados += ped.cantidadProductosComprados;
+this.NroVisitasCongelados += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4759,7 +4922,8 @@ this.cantidadProductosCongelados += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosVestimenta += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosVestimenta += ped.cantidadProductosComprados;
+this.NroVisitasVestimenta += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4878,7 +5042,8 @@ this.cantidadProductosVestimenta += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosSnacks += ped.cantidadProductosComprados;
+this.NroVisitasSnacks += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4993,7 +5158,8 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosLimpieza += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosLimpieza += ped.cantidadProductosComprados;
+this.NroVisitasLimpieza += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5826,7 +5992,8 @@ estadisticas_cola.add(N_Sistema, time());]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosBodega += ped.cantidadProductosComprados;
+this.NroVisitasBodega += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5938,7 +6105,8 @@ this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosConservas += ped.cantidadProductosComprados;
+this.NroVisitasConservas += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6050,7 +6218,8 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 5));
-this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosAperitivos += ped.cantidadProductosComprados;
+this.NroVisitasAperitivos += 1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6331,6 +6500,50 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
 
 			<Presentation>
+				<Rectangle>
+					<Id>1602284327204</Id>
+					<Name><![CDATA[rectangle29]]></Name>
+					<X>135</X><Y>440</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>-1</Z>
+					<ZHeight>1</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>85</Width>
+					<Height>580</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>floorLino</FillMaterial>
+				</Rectangle>
+				<Rectangle>
+					<Id>1602284220327</Id>
+					<Name><![CDATA[rectangle28]]></Name>
+					<X>220</X><Y>140</Y>
+					<Label><X>10</X><Y>10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>-1</Z>
+					<ZHeight>1</ZHeight>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineStyle>SOLID</LineStyle>
+					<Width>960</Width>
+					<Height>880</Height>
+					<Rotation>0.0</Rotation>
+					<FillColor>-1</FillColor>
+					<FillMaterial>floorLino</FillMaterial>
+				</Rectangle>
 				<RectangleWall>
 					<Id>1601393897872</Id>
 					<Name><![CDATA[wall320]]></Name>
@@ -20414,7 +20627,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
     			<Histogram>
 					<Id>1600294581378</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>680</X><Y>1460</Y>
+					<X>740</X><Y>1400</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20477,7 +20690,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
     			<Histogram>
 					<Id>1600294581382</Id>
 					<Name><![CDATA[chart1]]></Name>
-					<X>260</X><Y>1460</Y>
+					<X>320</X><Y>1400</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21978,9 +22191,9 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
 					<Width>180</Width>
-					<Height>290</Height>
+					<Height>260</Height>
 					<Rotation>0.0</Rotation>
-					<FillColor>-6632142</FillColor>
+					<FillColor>-1644806</FillColor>
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<Rectangle>
@@ -21999,10 +22212,10 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					<LineColor>-16777216</LineColor>
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
-					<Width>640</Width>
+					<Width>630</Width>
 					<Height>530</Height>
 					<Rotation>0.0</Rotation>
-					<FillColor>-16181</FillColor>
+					<FillColor>-1644806</FillColor>
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<Text>
@@ -22087,7 +22300,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					<Width>310</Width>
 					<Height>430</Height>
 					<Rotation>0.0</Rotation>
-					<FillColor>-5192482</FillColor>
+					<FillColor>-1644806</FillColor>
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<Text>
@@ -22127,10 +22340,10 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					<LineColor>-16777216</LineColor>
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
-					<Width>280</Width>
+					<Width>270</Width>
 					<Height>290</Height>
 					<Rotation>0.0</Rotation>
-					<FillColor>-3308225</FillColor>
+					<FillColor>-1644806</FillColor>
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<Text>
@@ -22549,6 +22762,295 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
+    			<BarChart>
+					<Id>1602285195275</Id>
+					<Name><![CDATA[cantidadProductos]]></Name>
+					<X>320</X><Y>1740</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1602316800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>820</Width>
+					<Height>300</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>740</Width>
+						<Height>170</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>80</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosAlmacen]]></Expression>
+					<Color>-10496</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosAlmacen]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosBebidas]]></Expression>
+					<Color>-6632142</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosBebidas]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosBebidas]]></Expression>
+					<Color>-14774017</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosSnacks]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosVestimenta]]></Expression>
+					<Color>-3137392</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosVestimenta]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosBazar]]></Expression>
+					<Color>-32944</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosBazar]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosLimpieza]]></Expression>
+					<Color>-13447886</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosLimpieza]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosCongelados]]></Expression>
+					<Color>-9404272</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosCongelados]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosBodega]]></Expression>
+					<Color>-7667573</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosBodega]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosConservas]]></Expression>
+					<Color>-23296</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosConservas]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[cantidadProductosAperitivos]]></Expression>
+					<Color>-4343957</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[cantidadProductosAperitivos]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
+    			<BarChart>
+					<Id>1602286232267</Id>
+					<Name><![CDATA[cantidadProductos1]]></Name>
+					<X>320</X><Y>2040</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1602316800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>820</Width>
+					<Height>300</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>740</Width>
+						<Height>170</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>80</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasAlmacen]]></Expression>
+					<Color>-10496</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasAlmacen]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasBebidas]]></Expression>
+					<Color>-6632142</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasBebidas]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasBebidas]]></Expression>
+					<Color>-14774017</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasSnacks]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasVestimenta]]></Expression>
+					<Color>-3137392</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasVestimenta]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasBazar]]></Expression>
+					<Color>-32944</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasBazar]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasLimpieza]]></Expression>
+					<Color>-13447886</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasLimpieza]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasCongelados]]></Expression>
+					<Color>-9404272</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasCongelados]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasBodega]]></Expression>
+					<Color>-7667573</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasBodega]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasConservas]]></Expression>
+					<Color>-23296</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasConservas]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[NroVisitasAperitivos]]></Expression>
+					<Color>-4343957</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[NroVisitasAperitivos]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
+    			<PieChart>
+					<Id>1602286783796</Id>
+					<Name><![CDATA[PorcentajeCajas]]></Name>
+					<X>30</X><Y>2120</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1602316800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>260</Width>
+					<Height>210</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>60</XOffset>
+						<YOffset>10</YOffset>
+						<Width>140</Width>
+						<Height>140</Height>
+						<BorderColor/>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>40</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[this.cajaOrdinaria]]></Expression>
+					<Color>-2987746</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Caja Ordinaria]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[this.cajaRapida]]></Expression>
+					<Color>-2448096</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Caja Rapida]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[this.cajaEspecial]]></Expression>
+					<Color>-9728477</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Caja Especial]]></Title>
+					</DataItem>
+    			</PieChart>
 			</Presentation>
 
 				</Level>
