@@ -2629,14 +2629,14 @@ densityMap.display(densityEnabled);]]></Body>
 								<IsAgentEntity>true</IsAgentEntity>
 								<EntityEmbeddedObject>
 									<ActiveObjectClass>
-										<PackageName><![CDATA[tpi]]></PackageName>
+										<PackageName><![CDATA[tpi___lagallega3]]></PackageName>
 										<ClassName><![CDATA[ClienteCompraRapida]]></ClassName>
 									</ActiveObjectClass>
 									<GenericParameterSubstitute>
 										<GenericParameterSubstituteReference>
-											<PackageName><![CDATA[tpi]]></PackageName>
+											<PackageName><![CDATA[tpi___lagallega3]]></PackageName>
 											<ClassName><![CDATA[ClienteCompraRapida]]></ClassName>
-											<ItemName><![CDATA[1597271493752]]></ItemName>
+											<ItemName><![CDATA[1603857642940]]></ItemName>
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
 									<Parameters>
@@ -6489,14 +6489,14 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 								<IsAgentEntity>true</IsAgentEntity>
 								<EntityEmbeddedObject>
 									<ActiveObjectClass>
-										<PackageName><![CDATA[tpi]]></PackageName>
+										<PackageName><![CDATA[tpi___lagallega3]]></PackageName>
 										<ClassName><![CDATA[ClienteCompraRapida]]></ClassName>
 									</ActiveObjectClass>
 									<GenericParameterSubstitute>
 										<GenericParameterSubstituteReference>
-											<PackageName><![CDATA[tpi]]></PackageName>
+											<PackageName><![CDATA[tpi___lagallega3]]></PackageName>
 											<ClassName><![CDATA[ClienteCompraRapida]]></ClassName>
-											<ItemName><![CDATA[1597271493752]]></ItemName>
+											<ItemName><![CDATA[1603857642940]]></ItemName>
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
 									<Parameters>
@@ -8027,25 +8027,6 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 						<Title><![CDATA[]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
-				<EmbeddedObjectPresentation>
-					<Id>1603857536838</Id>
-					<Name><![CDATA[comprarPanaderia_presentation]]></Name>
-					<X>0</X><Y>0</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<DrawingMode>AGENT_CURRENT_POSITION</DrawingMode>
-					<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
-					<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
-					<GISScaleForFixedEmbeddedObjectPresentationSize>1000000000</GISScaleForFixedEmbeddedObjectPresentationSize>
-					<Latitude>0.0</Latitude>
-					<Longitude>0.0</Longitude>
-				</EmbeddedObjectPresentation>
 				<DensityMap>
 					<Id>1603857536840</Id>
 					<Name><![CDATA[densityMap]]></Name>
@@ -28687,7 +28668,7 @@ Cliente 4 --> Niña]]></Text>
 		</ExportSettings>
 	</Database>
 	
-	<RunConfiguration ActiveObjectClassId="1603857482643">
+	<RunConfiguration ActiveObjectClassId="1603857536700">
 		<Id>1603857482646</Id>
 		<Name><![CDATA[RunConfiguration]]></Name>
 		<MaximumMemory>512</MaximumMemory>
@@ -28875,12 +28856,6 @@ Cliente 4 --> Niña]]></Text>
 		<VersionMajor>8</VersionMajor>
 		<VersionMinor>0</VersionMinor>
 		<VersionBuild>5</VersionBuild>
-    </RequiredLibraryReference>
-    <RequiredLibraryReference>
-		<LibraryName><![CDATA[tpi]]></LibraryName>
-		<VersionMajor>0</VersionMajor>
-		<VersionMinor>0</VersionMinor>
-		<VersionBuild>0</VersionBuild>
     </RequiredLibraryReference>
     <RequiredLibraryReference>
 		<LibraryName><![CDATA[com.anylogic.libraries.processmodeling]]></LibraryName>

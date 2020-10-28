@@ -1017,7 +1017,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarBebidas]]></ItemName>
+						<ItemName><![CDATA[comprarAperitivos]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1053,7 +1053,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarSnacks]]></ItemName>
+						<ItemName><![CDATA[comprarBodega]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1088,7 +1088,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarVestimenta]]></ItemName>
+						<ItemName><![CDATA[comprarCongelados]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1122,7 +1122,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarBazar]]></ItemName>
+						<ItemName><![CDATA[comprarLimpieza]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1158,7 +1158,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarLimpieza]]></ItemName>
+						<ItemName><![CDATA[comprarConservas]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1195,7 +1195,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarCongelados]]></ItemName>
+						<ItemName><![CDATA[comprarBebidas]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1230,7 +1230,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarBodega]]></ItemName>
+						<ItemName><![CDATA[comprarSnacks]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1265,7 +1265,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarConservas]]></ItemName>
+						<ItemName><![CDATA[comprarIndumentaria]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1300,7 +1300,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarAperitivos]]></ItemName>
+						<ItemName><![CDATA[comprarBazar]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1383,7 +1383,7 @@
 						<Point><X>60</X><Y>0</Y></Point>
 						<Point><X>60</X><Y>340</Y></Point>
 						<Point><X>-560</X><Y>340</Y></Point>
-						<Point><X>-560</X><Y>46</Y></Point>
+						<Point><X>-560</X><Y>70</Y></Point>
 						<Point><X>-560</X><Y>60</Y></Point>
 					</Points>
 				</Connector>
@@ -1432,7 +1432,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarBazar]]></ItemName>
+						<ItemName><![CDATA[comprarLimpieza]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1469,7 +1469,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarVestimenta]]></ItemName>
+						<ItemName><![CDATA[comprarCongelados]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1506,7 +1506,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarSnacks]]></ItemName>
+						<ItemName><![CDATA[comprarBodega]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1543,7 +1543,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarBebidas]]></ItemName>
+						<ItemName><![CDATA[comprarAperitivos]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1617,7 +1617,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarAperitivos]]></ItemName>
+						<ItemName><![CDATA[comprarBazar]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1652,7 +1652,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarConservas]]></ItemName>
+						<ItemName><![CDATA[comprarIndumentaria]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1687,7 +1687,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarBodega]]></ItemName>
+						<ItemName><![CDATA[comprarSnacks]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1722,7 +1722,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarCongelados]]></ItemName>
+						<ItemName><![CDATA[comprarBebidas]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1757,7 +1757,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarLimpieza]]></ItemName>
+						<ItemName><![CDATA[comprarConservas]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -2629,14 +2629,14 @@ densityMap.display(densityEnabled);]]></Body>
 								<IsAgentEntity>true</IsAgentEntity>
 								<EntityEmbeddedObject>
 									<ActiveObjectClass>
-										<PackageName><![CDATA[tpi]]></PackageName>
+										<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 										<ClassName><![CDATA[ClienteCompraRapida]]></ClassName>
 									</ActiveObjectClass>
 									<GenericParameterSubstitute>
 										<GenericParameterSubstituteReference>
-											<PackageName><![CDATA[tpi]]></PackageName>
+											<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 											<ClassName><![CDATA[ClienteCompraRapida]]></ClassName>
-											<ItemName><![CDATA[1597271493752]]></ItemName>
+											<ItemName><![CDATA[1603908967255]]></ItemName>
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
 									<Parameters>
@@ -2802,19 +2802,19 @@ densityMap.display(densityEnabled);]]></Body>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorAlmacen || ped.sectorBebidas || ped.sectorSnacks  ]]></Code>
+								<Code><![CDATA[ped.sectorAlmacen || ped.sectorAperitivos || ped.sectorBodega  ]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorVestimenta || ped.sectorBazar || ped.sectorLimpieza]]></Code>
+								<Code><![CDATA[ped.sectorCongelados || ped.sectorLimpieza || ped.sectorConservas]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorAperitivos  ]]></Code>
+								<Code><![CDATA[ped.sectorBebidas || ped.sectorSnacks || ped.sectorVestimenta || ped.sectorBazar  ]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4450,19 +4450,19 @@ cajaEspecial += 1;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorBebidas]]></Code>
+								<Code><![CDATA[ped.sectorAperitivos]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorSnacks]]></Code>
+								<Code><![CDATA[ped.sectorBodega]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorVestimenta || ped.sectorBazar || ped.sectorLimpieza || ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorAperitivos]]></Code>
+								<Code><![CDATA[ped.sectorCongelados || ped.sectorLimpieza || ped.sectorConservas || ped.sectorBebidas || ped.sectorSnacks || ped.sectorVestimenta || ped.sectorBazar]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4658,7 +4658,7 @@ this.cantidadProductosAlmacen += ped.cantidadProductosComprados;]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1603858505683</Id>
-					<Name><![CDATA[comprarBebidas]]></Name>
+					<Name><![CDATA[comprarAperitivos]]></Name>
 					<X>2500</X><Y>1760</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -4712,7 +4712,7 @@ this.cantidadProductosAlmacen += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExitQueue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorBebidas = false;]]></Code>
+								<Code><![CDATA[ped.sectorAperitivos = false;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4725,7 +4725,7 @@ this.cantidadProductosAlmacen += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 3));
-this.cantidadProductosBebidas += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4773,7 +4773,7 @@ this.cantidadProductosBebidas += ped.cantidadProductosComprados;]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1603858505687</Id>
-					<Name><![CDATA[comprarBazar]]></Name>
+					<Name><![CDATA[comprarLimpieza]]></Name>
 					<X>2500</X><Y>1945</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -4797,7 +4797,7 @@ this.cantidadProductosBebidas += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorBazar]]></Code>
+								<Code><![CDATA[sectorLimpieza]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4827,7 +4827,7 @@ this.cantidadProductosBebidas += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExitQueue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorBazar = false;]]></Code>
+								<Code><![CDATA[ped.sectorLimpieza = false;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4840,7 +4840,7 @@ this.cantidadProductosBebidas += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 4));
-this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosLimpieza += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4888,8 +4888,123 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1603858505691</Id>
-					<Name><![CDATA[comprarCongelados]]></Name>
+					<Name><![CDATA[comprarBebidas]]></Name>
 					<X>2690</X><Y>1790</Y>
+					<Label><X>-15</X><Y>-20</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedService]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+							<ClassName><![CDATA[PedService]]></ClassName>
+							<ItemName><![CDATA[1416228850252]]></ItemName>
+						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[ClienteCompraRapida]]></Code>
+						</GenericParameterSubstituteValue>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[services]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[sectorBebidas]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[queueChoicePolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[chooseQueue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[recoveryDelay]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[reverseQueue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnterQueue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExitQueue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitQueue]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ped.sectorBebidas = false;]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onBeginService]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEndService]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(2, 5));
+this.cantidadProductosBebidas += ped.cantidadProductosComprados;]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onCancel]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1603858505695</Id>
+					<Name><![CDATA[comprarCongelados]]></Name>
+					<X>2500</X><Y>1890</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4954,7 +5069,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(2, 5));
+								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 2));
 this.cantidadProductosCongelados += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
@@ -5002,123 +5117,8 @@ this.cantidadProductosCongelados += ped.cantidadProductosComprados;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1603858505695</Id>
-					<Name><![CDATA[comprarVestimenta]]></Name>
-					<X>2500</X><Y>1890</Y>
-					<Label><X>-15</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedService]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-							<ClassName><![CDATA[PedService]]></ClassName>
-							<ItemName><![CDATA[1416228850252]]></ItemName>
-						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[ClienteCompraRapida]]></Code>
-						</GenericParameterSubstituteValue>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[services]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[sectorBebidas]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[queueChoicePolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[chooseQueue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[delayTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[recoveryDelay]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[reverseQueue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnterQueue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExitQueue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitQueue]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorVestimenta = false;]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBeginService]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEndService]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 2));
-this.cantidadProductosVestimenta += ped.cantidadProductosComprados;]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onCancel]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1603858505699</Id>
-					<Name><![CDATA[comprarSnacks]]></Name>
+					<Name><![CDATA[comprarBodega]]></Name>
 					<X>2500</X><Y>1825</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -5142,7 +5142,7 @@ this.cantidadProductosVestimenta += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorSnacks]]></Code>
+								<Code><![CDATA[sectorBodega]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5176,7 +5176,7 @@ this.cantidadProductosVestimenta += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExitQueue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorSnacks = false;]]></Code>
+								<Code><![CDATA[ped.sectorBodega = false;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5189,7 +5189,7 @@ this.cantidadProductosVestimenta += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 3));
-this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5237,7 +5237,7 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1603858505703</Id>
-					<Name><![CDATA[comprarLimpieza]]></Name>
+					<Name><![CDATA[comprarConservas]]></Name>
 					<X>2690</X><Y>1720</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -5261,7 +5261,7 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorAperitivos]]></Code>
+								<Code><![CDATA[sectorConservas]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5291,7 +5291,7 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExitQueue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorLimpieza = false;]]></Code>
+								<Code><![CDATA[ped.sectorConservas = false;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5304,7 +5304,7 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(2, 6));
-this.cantidadProductosLimpieza += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5379,25 +5379,25 @@ this.cantidadProductosLimpieza += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorVestimenta]]></Code>
+								<Code><![CDATA[ped.sectorCongelados]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorBazar]]></Code>
+								<Code><![CDATA[ped.sectorLimpieza]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorLimpieza]]></Code>
+								<Code><![CDATA[ped.sectorConservas]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorAperitivos]]></Code>
+								<Code><![CDATA[ped.sectorBebidas || ped.sectorSnacks || ped.sectorVestimenta || ped.sectorBazar]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5978,25 +5978,25 @@ datasetSistema.add(N_Sistema, time());]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorCongelados]]></Code>
+								<Code><![CDATA[ped.sectorBebidas]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorBodega]]></Code>
+								<Code><![CDATA[ped.sectorSnacks]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorConservas]]></Code>
+								<Code><![CDATA[ped.sectorVestimenta]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorAperitivos]]></Code>
+								<Code><![CDATA[ped.sectorBazar]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6077,7 +6077,7 @@ datasetSistema.add(N_Sistema, time());]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1603858505731</Id>
-					<Name><![CDATA[comprarBodega]]></Name>
+					<Name><![CDATA[comprarSnacks]]></Name>
 					<X>2690</X><Y>1860</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -6098,7 +6098,7 @@ datasetSistema.add(N_Sistema, time());]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorConservas]]></Code>
+								<Code><![CDATA[sectorSnacks]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6128,7 +6128,7 @@ datasetSistema.add(N_Sistema, time());]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExitQueue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorBodega = false;]]></Code>
+								<Code><![CDATA[ped.sectorSnacks = false;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6141,7 +6141,7 @@ datasetSistema.add(N_Sistema, time());]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 4));
-this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6189,7 +6189,7 @@ this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1603858505735</Id>
-					<Name><![CDATA[comprarConservas]]></Name>
+					<Name><![CDATA[comprarIndumentaria]]></Name>
 					<X>2690</X><Y>1930</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -6210,7 +6210,7 @@ this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorBodega]]></Code>
+								<Code><![CDATA[sectorVestimenta]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6237,7 +6237,7 @@ this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onAtExitQueue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorConservas = false;]]></Code>
+								<Code><![CDATA[ped.sectorVestimenta = false;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6253,7 +6253,7 @@ this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(2, 3));
-this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosVestimenta += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6301,7 +6301,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1603858505739</Id>
-					<Name><![CDATA[comprarAperitivos]]></Name>
+					<Name><![CDATA[comprarBazar]]></Name>
 					<X>2690</X><Y>2000</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -6322,7 +6322,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorLimpieza]]></Code>
+								<Code><![CDATA[sectorBazar]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6349,7 +6349,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onAtExitQueue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorAperitivos = false;]]></Code>
+								<Code><![CDATA[ped.sectorBazar = false;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6365,7 +6365,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 4));
-this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6489,14 +6489,14 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 								<IsAgentEntity>true</IsAgentEntity>
 								<EntityEmbeddedObject>
 									<ActiveObjectClass>
-										<PackageName><![CDATA[tpi]]></PackageName>
+										<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 										<ClassName><![CDATA[ClienteCompraRapida]]></ClassName>
 									</ActiveObjectClass>
 									<GenericParameterSubstitute>
 										<GenericParameterSubstituteReference>
-											<PackageName><![CDATA[tpi]]></PackageName>
+											<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
 											<ClassName><![CDATA[ClienteCompraRapida]]></ClassName>
-											<ItemName><![CDATA[1597271493752]]></ItemName>
+											<ItemName><![CDATA[1603908967255]]></ItemName>
 										</GenericParameterSubstituteReference>
 									</GenericParameterSubstitute>
 									<Parameters>
@@ -8027,25 +8027,6 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 						<Title><![CDATA[]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
-				<EmbeddedObjectPresentation>
-					<Id>1603858504016</Id>
-					<Name><![CDATA[comprarPanaderia_presentation]]></Name>
-					<X>0</X><Y>0</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<DrawingMode>AGENT_CURRENT_POSITION</DrawingMode>
-					<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
-					<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
-					<GISScaleForFixedEmbeddedObjectPresentationSize>1000000000</GISScaleForFixedEmbeddedObjectPresentationSize>
-					<Latitude>0.0</Latitude>
-					<Longitude>0.0</Longitude>
-				</EmbeddedObjectPresentation>
 				<DensityMap>
 					<Id>1603858504018</Id>
 					<Name><![CDATA[densityMap]]></Name>
@@ -8520,7 +8501,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 						<Title><![CDATA[NroVisitasSnacks]]></Title>
 					</DataItem>
 					<DataItem>
-					<Expression><![CDATA[comprarVestimenta.countPeds()]]></Expression>
+					<Expression><![CDATA[comprarIndumentaria.countPeds()]]></Expression>
 					<Color>-3137392</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[NroVisitasVestimenta]]></Title>
@@ -17670,7 +17651,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1603858504712</Id>
-					<Name><![CDATA[sectorSnacks]]></Name>
+					<Name><![CDATA[sectorAperitivos]]></Name>
 					<X>176</X><Y>1203</Y>
 					<Label><X>-70.679</X><Y>1811.256</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -21152,7 +21133,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1603858505067</Id>
-					<Name><![CDATA[servicesSnacks]]></Name>
+					<Name><![CDATA[sectorSnacks]]></Name>
 					<X>737</X><Y>906</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -21614,7 +21595,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1603858505117</Id>
-					<Name><![CDATA[sectorAperitivos]]></Name>
+					<Name><![CDATA[sectorBebidas]]></Name>
 					<X>737</X><Y>488</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -26049,7 +26030,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1603858505449</Id>
-					<Name><![CDATA[sectorBebidas]]></Name>
+					<Name><![CDATA[sectorVestimenta]]></Name>
 					<X>524</X><Y>826</Y>
 					<Label><X>10</X><Y>-1.646</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -27787,14 +27768,14 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 		</ActiveObjectClass>
 		<!--   =========   Active Object Class   ========  -->
 		<ActiveObjectClass>
-			<Id>1603858518129</Id>
+			<Id>1603908967260</Id>
 			<Name><![CDATA[ClienteCompraRapida]]></Name>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
 			<StartupCode><![CDATA[this.setAllVariables();]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
-				<Id>1603858518124</Id>
-				<Name><![CDATA[1603858518124]]></Name>
+				<Id>1603908967255</Id>
+				<Name><![CDATA[1603908967255]]></Name>
 				<GenericParameterValue Class="CodeValue">
 					<Code><![CDATA[T extends Agent]]></Code>
 				</GenericParameterValue>
@@ -27866,7 +27847,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</RecurrenceCode>
 			</DatasetsCreationProperties>
 			<ScaleRuler>
-				<Id>1603858518125</Id>
+				<Id>1603908967256</Id>
 				<Name><![CDATA[scale]]></Name>
 				<X>0</X><Y>-150</Y>
 				<PublicFlag>false</PublicFlag>
@@ -27881,11 +27862,11 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 				<Scale>10</Scale>
 				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
 			</ScaleRuler>
-			<CurrentLevel>1603858518165</CurrentLevel>
-			<ConnectionsId>1603858518193</ConnectionsId>
+			<CurrentLevel>1603908967296</CurrentLevel>
+			<ConnectionsId>1603908967324</ConnectionsId>
 			<Variables>
 				<Variable Class="PlainVariable">
-					<Id>1603858518133</Id>
+					<Id>1603908967264</Id>
 					<Name><![CDATA[cantidadProductosComprados]]></Name>
 					<X>80</X><Y>240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -27900,7 +27881,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518135</Id>
+					<Id>1603908967266</Id>
 					<Name><![CDATA[discapacidad]]></Name>
 					<X>80</X><Y>210</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -27915,7 +27896,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518137</Id>
+					<Id>1603908967268</Id>
 					<Name><![CDATA[sectorSnacks]]></Name>
 					<X>330</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -27930,7 +27911,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518139</Id>
+					<Id>1603908967270</Id>
 					<Name><![CDATA[sectorBebidas]]></Name>
 					<X>490</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -27945,7 +27926,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518141</Id>
+					<Id>1603908967272</Id>
 					<Name><![CDATA[sectorCongelados]]></Name>
 					<X>330</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -27960,7 +27941,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518143</Id>
+					<Id>1603908967274</Id>
 					<Name><![CDATA[sectorVestimenta]]></Name>
 					<X>330</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -27975,7 +27956,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518145</Id>
+					<Id>1603908967276</Id>
 					<Name><![CDATA[sectorBazar]]></Name>
 					<X>330</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -27990,7 +27971,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518147</Id>
+					<Id>1603908967278</Id>
 					<Name><![CDATA[sectorLimpieza]]></Name>
 					<X>490</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28005,7 +27986,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518149</Id>
+					<Id>1603908967280</Id>
 					<Name><![CDATA[sectorPanaderia]]></Name>
 					<X>40</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28020,7 +28001,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518151</Id>
+					<Id>1603908967282</Id>
 					<Name><![CDATA[sectorFiambreria]]></Name>
 					<X>40</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28035,7 +28016,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518153</Id>
+					<Id>1603908967284</Id>
 					<Name><![CDATA[sectorCarniceria]]></Name>
 					<X>40</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28050,7 +28031,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518155</Id>
+					<Id>1603908967286</Id>
 					<Name><![CDATA[sectorVerduleria]]></Name>
 					<X>40</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28062,7 +28043,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518157</Id>
+					<Id>1603908967288</Id>
 					<Name><![CDATA[sectorAlmacen]]></Name>
 					<X>180</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28074,7 +28055,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518159</Id>
+					<Id>1603908967290</Id>
 					<Name><![CDATA[sectorBodega]]></Name>
 					<X>180</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28086,7 +28067,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518161</Id>
+					<Id>1603908967292</Id>
 					<Name><![CDATA[sectorConservas]]></Name>
 					<X>180</X><Y>440</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28098,7 +28079,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1603858518163</Id>
+					<Id>1603908967294</Id>
 					<Name><![CDATA[sectorAperitivos]]></Name>
 					<X>180</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28110,7 +28091,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="Parameter">
-					<Id>1603858518188</Id>
+					<Id>1603908967319</Id>
 					<Name><![CDATA[edad]]></Name>
 					<X>80</X><Y>180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28125,7 +28106,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 							<Code><![CDATA[Math.round(uniform_discr(16, 75))]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
-							<Id>1603858518186</Id>
+							<Id>1603908967317</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
 							<MinSliderValue><![CDATA[0]]></MinSliderValue>
 							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
@@ -28134,7 +28115,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					</Properties>                 
 				</Variable>
 				<Variable Class="Parameter">
-					<Id>1603858518191</Id>
+					<Id>1603908967322</Id>
 					<Name><![CDATA[tipoCliente]]></Name>
 					<X>80</X><Y>120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28146,7 +28127,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<ParameterEditor>
-							<Id>1603858518189</Id>
+							<Id>1603908967320</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
 							<MinSliderValue><![CDATA[0]]></MinSliderValue>
 							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
@@ -28159,7 +28140,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 				<Function AccessType="default" StaticFunction="false">
 					<ReturnModificator>VOID</ReturnModificator>
 					<ReturnType><![CDATA[double]]></ReturnType>
-					<Id>1603858518131</Id>
+					<Id>1603908967262</Id>
 					<Name><![CDATA[setAllVariables]]></Name>
 					<X>490</X><Y>380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28212,7 +28193,7 @@ this.sectorVerduleria = true;
 			</Functions>
 			<AgentLinks>
 				<AgentLink>
-					<Id>1603858518193</Id>
+					<Id>1603908967324</Id>
 					<Name><![CDATA[connections]]></Name>
 					<X>50</X><Y>-50</Y>
 					<Label><X>15</X><Y>0</Y></Label>
@@ -28235,7 +28216,7 @@ this.sectorVerduleria = true;
 
 			<Presentation>
 				<Level>
-					<Id>1603858518165</Id>
+					<Id>1603908967296</Id>
 					<Name><![CDATA[level]]></Name>
 					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -28248,7 +28229,7 @@ this.sectorVerduleria = true;
 
 			<Presentation>
 				<Rectangle>
-					<Id>1603858518167</Id>
+					<Id>1603908967298</Id>
 					<Name><![CDATA[rectangle]]></Name>
 					<X>20</X><Y>310</Y>
 					<Label><X>10</X><Y>10</Y></Label>
@@ -28270,7 +28251,7 @@ this.sectorVerduleria = true;
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<Figure3D>
-					<Id>1603858518169</Id>
+					<Id>1603908967300</Id>
 					<Name><![CDATA[person]]></Name>
 					<X>0</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
@@ -28320,7 +28301,7 @@ this.sectorVerduleria = true;
 					<VisibleCode><![CDATA[tipoCliente==2]]></VisibleCode>
 				</Figure3D>
 				<Figure3D>
-					<Id>1603858518171</Id>
+					<Id>1603908967302</Id>
 					<Name><![CDATA[cart]]></Name>
 					<X>0</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
@@ -28362,7 +28343,7 @@ this.sectorVerduleria = true;
 					<VisibleCode><![CDATA[tipoCliente==1 || tipoCliente==2]]></VisibleCode>
 				</Figure3D>
 				<Figure3D>
-					<Id>1603858518173</Id>
+					<Id>1603908967304</Id>
 					<Name><![CDATA[woman_1]]></Name>
 					<X>-2</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
@@ -28428,7 +28409,7 @@ this.sectorVerduleria = true;
 					<VisibleCode><![CDATA[tipoCliente==1]]></VisibleCode>
 				</Figure3D>
 				<Figure3D>
-					<Id>1603858518175</Id>
+					<Id>1603908967306</Id>
 					<Name><![CDATA[boy]]></Name>
 					<X>-2</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
@@ -28498,7 +28479,7 @@ this.sectorVerduleria = true;
 					<VisibleCode><![CDATA[tipoCliente==3]]></VisibleCode>
 				</Figure3D>
 				<Figure3D>
-					<Id>1603858518177</Id>
+					<Id>1603908967308</Id>
 					<Name><![CDATA[girl]]></Name>
 					<X>-1</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
@@ -28565,7 +28546,7 @@ this.sectorVerduleria = true;
 					<VisibleCode><![CDATA[tipoCliente==4]]></VisibleCode>
 				</Figure3D>
 				<Text>
-					<Id>1603858518179</Id>
+					<Id>1603908967310</Id>
 					<Name><![CDATA[text1]]></Name>
 					<X>280</X><Y>330</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
@@ -28586,7 +28567,7 @@ this.sectorVerduleria = true;
 					<Alignment>LEFT</Alignment>
 				</Text>
 				<Rectangle>
-					<Id>1603858518181</Id>
+					<Id>1603908967312</Id>
 					<Name><![CDATA[rectangle1]]></Name>
 					<X>50</X><Y>30</Y>
 					<Label><X>10</X><Y>10</Y></Label>
@@ -28608,7 +28589,7 @@ this.sectorVerduleria = true;
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<Text>
-					<Id>1603858518183</Id>
+					<Id>1603908967314</Id>
 					<Name><![CDATA[text2]]></Name>
 					<X>110</X><Y>40</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
@@ -28629,7 +28610,7 @@ this.sectorVerduleria = true;
 					<Alignment>LEFT</Alignment>
 				</Text>
 				<Text>
-					<Id>1603858518185</Id>
+					<Id>1603908967316</Id>
 					<Name><![CDATA[text]]></Name>
 					<X>180</X><Y>80</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
@@ -28680,7 +28661,7 @@ Cliente 4 --> Niña]]></Text>
 		</ExportSettings>
 	</Database>
 	
-	<RunConfiguration ActiveObjectClassId="1603858485901">
+	<RunConfiguration ActiveObjectClassId="1603858503878">
 		<Id>1603858485904</Id>
 		<Name><![CDATA[RunConfiguration]]></Name>
 		<MaximumMemory>512</MaximumMemory>
@@ -28712,7 +28693,7 @@ Cliente 4 --> Niña]]></Text>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
 			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
 			<MaximumMemory>512</MaximumMemory>
-			<RandomNumberGenerationType>fixedSeed</RandomNumberGenerationType>
+			<RandomNumberGenerationType>randomSeed</RandomNumberGenerationType>
 			<CustomGeneratorCode>new Random()</CustomGeneratorCode>
 			<SeedValue>1</SeedValue>
 			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
@@ -28760,7 +28741,7 @@ Cliente 4 --> Niña]]></Text>
 				<FinalDate><![CDATA[1606521600000]]></FinalDate>	
 				<FinalTime><![CDATA[100.0]]></FinalTime>	
 			</ModelTimeProperties>
-			<BypassInitialScreen>true</BypassInitialScreen>
+			<BypassInitialScreen>false</BypassInitialScreen>
 		</SimulationExperiment>	
 	</Experiments>
 	<ModelResources>
@@ -28868,12 +28849,6 @@ Cliente 4 --> Niña]]></Text>
 		<VersionMajor>8</VersionMajor>
 		<VersionMinor>0</VersionMinor>
 		<VersionBuild>5</VersionBuild>
-    </RequiredLibraryReference>
-    <RequiredLibraryReference>
-		<LibraryName><![CDATA[tpi]]></LibraryName>
-		<VersionMajor>0</VersionMajor>
-		<VersionMinor>0</VersionMinor>
-		<VersionBuild>0</VersionBuild>
     </RequiredLibraryReference>
     <RequiredLibraryReference>
 		<LibraryName><![CDATA[com.anylogic.libraries.processmodeling]]></LibraryName>

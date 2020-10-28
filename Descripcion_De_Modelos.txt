@@ -1,4 +1,4 @@
-TPI - LaGallega --> Modelo actual 
+TPI - Modelo Servicio Proceso --> Modelo actual 
 TPI - LaGallega2 --> Modelo implementando una unica cola para multiples cajas
 TPI - LaGallega3 --> Modelo implementando una caja rapida adicional
 TPI - LaGallega4 --> Modelo agrupando gondolas con mayor probabilidad de ocurrencia
