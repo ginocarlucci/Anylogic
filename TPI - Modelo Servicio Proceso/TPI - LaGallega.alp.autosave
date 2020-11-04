@@ -2306,39 +2306,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1603811828350</Id>
-					<Name><![CDATA[connector57]]></Name>
-					<X>2460</X><Y>2500</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedGoTo3]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[PagarCajaOrdinaria]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedService]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>30</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1603813100402</Id>
 					<Name><![CDATA[connector58]]></Name>
 					<X>2350</X><Y>2330</Y>
@@ -2406,6 +2373,39 @@
 						<Point><X>100</X><Y>0</Y></Point>
 						<Point><X>100</X><Y>-145</Y></Point>
 						<Point><X>125</X><Y>-145</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1603811828350</Id>
+					<Name><![CDATA[connector57]]></Name>
+					<X>2460</X><Y>2500</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[tpi]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedGoTo3]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGoTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[tpi]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[PagarCajaOrdinaria]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedService]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>30</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -3804,7 +3804,8 @@ estadisticas_cola.add(N_Cola, time());]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola--;
 estadisticas_cola.add(N_Cola, time());
-cajaRapida += 1;]]></Code>
+cajaRapida += 1;
+traceln(ped.cantidadProductosComprados);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28721,7 +28722,10 @@ Cliente 4 --> Niña]]></Text>
 			<CustomGeneratorCode>new Random()</CustomGeneratorCode>
 			<AfterSimulationRunCode><![CDATA[dataSISTEMA.add(root.tmeSISTEMA.distribution.mean());
 dataCOLA.add(root.tmeCAJA.distribution.mean());
-cargaFile();]]></AfterSimulationRunCode>
+salidaFile.println("Tiempo en sistema: ");
+salidaFile.println(root.tmeSISTEMA.distribution.mean());
+salidaFile.println("Tiempo en cola: ");
+salidaFile.println(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode>
 			<SeedValue>1</SeedValue>
 			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
 			<VmArgs><![CDATA[]]></VmArgs>
@@ -28737,37 +28741,9 @@ cargaFile();]]></AfterSimulationRunCode>
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[double]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[0]]></Code>
-						</InitialValue>
 					</Properties>
 				</Variable>
 			</Variables>
-			<Functions>
-				<Function AccessType="default" StaticFunction="false">
-					<ReturnModificator>VOID</ReturnModificator>
-					<ReturnType><![CDATA[double]]></ReturnType>
-					<Id>1604433061954</Id>
-					<Name><![CDATA[cargaFile]]></Name>
-					<X>310</X><Y>50</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Body><![CDATA[n_run=n_run+1;
-salidaFile.println();
-salidaFile.print(n_run);
-salidaFile.print(',');
-salidaFile.print(dataSISTEMA.getStatistics().mean());
-salidaFile.print(',');
-salidaFile.print(dataSISTEMA.getStatistics().deviation());
-salidaFile.print(',');
-salidaFile.print(dataCOLA.getStatistics().mean());
-salidaFile.print(',');
-salidaFile.print(dataCOLA.getStatistics().deviation());
-traceln("salidaFile OK");]]></Body>
-				</Function>
-			</Functions>
 			<Connectivity>
 				<TextFile>
 					<Id>1604433168285</Id>
@@ -28984,7 +28960,7 @@ traceln("salidaFile OK");]]></Body>
 
 			<AllowParallelEvaluations>true</AllowParallelEvaluations>
 			<UseFreeformParameters>true</UseFreeformParameters>
-			<NumberOfRuns>30</NumberOfRuns>
+			<NumberOfRuns>100</NumberOfRuns>
 			<ModelTimeProperties>
 				<StopOption><![CDATA[Stop at specified time]]></StopOption>
 				<InitialDate><![CDATA[1597017600000]]></InitialDate>	
