@@ -3804,8 +3804,7 @@ estadisticas_cola.add(N_Cola, time());]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola--;
 estadisticas_cola.add(N_Cola, time());
-cajaRapida += 1;
-traceln(ped.cantidadProductosComprados);]]></Code>
+cajaRapida += 1;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>

@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201438" AlpVersion="8.5.7">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201426" AlpVersion="8.5.7">
 <Model>
 	<Id>1603858485895</Id>
 	<Name><![CDATA[TPI - LaGallega4]]></Name>
@@ -2483,50 +2483,6 @@ densityMap.display(densityEnabled);]]></Body>
 					</RecurrenceCode>
 					<Discrete>false</Discrete>
 				</Statistics>
-    			<DataSet>
-					<Id>1603858503887</Id>
-					<Name><![CDATA[datasetSistema]]></Name>
-					<X>40</X><Y>1900</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<AutoUpdate>false</AutoUpdate>
-					<OccurrenceAtTime>true</OccurrenceAtTime>
-					<OccurrenceDate>1603872000000</OccurrenceDate>
-					<OccurrenceTime Class="CodeUnitValue">
-						<Code><![CDATA[0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</OccurrenceTime>
-					<RecurrenceCode Class="CodeUnitValue">
-						<Code><![CDATA[1]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</RecurrenceCode>
-					<FreezeXAxis>true</FreezeXAxis>
-					<SamplesToKeep>100</SamplesToKeep>
-				</DataSet>
-    			<DataSet>
-					<Id>1603858503890</Id>
-					<Name><![CDATA[datasetCola]]></Name>
-					<X>40</X><Y>1920</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<AutoUpdate>false</AutoUpdate>
-					<OccurrenceAtTime>true</OccurrenceAtTime>
-					<OccurrenceDate>1603872000000</OccurrenceDate>
-					<OccurrenceTime Class="CodeUnitValue">
-						<Code><![CDATA[0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</OccurrenceTime>
-					<RecurrenceCode Class="CodeUnitValue">
-						<Code><![CDATA[1]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</RecurrenceCode>
-					<FreezeXAxis>true</FreezeXAxis>
-					<SamplesToKeep>100</SamplesToKeep>
-				</DataSet>
 			</AnalysisData>
 			<AgentLinks>
 				<AgentLink>
@@ -3424,8 +3380,7 @@ densityMap.display(densityEnabled);]]></Body>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Sistema--;
-estadisticas_sistema.add(N_Sistema, time());
-datasetSistema.add(N_Sistema, time());]]></Code>
+estadisticas_sistema.add(N_Sistema, time());]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3531,8 +3486,7 @@ datasetSistema.add(N_Sistema, time());]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Sistema--;
-estadisticas_sistema.add(N_Sistema, time());
-datasetSistema.add(N_Sistema, time());]]></Code>
+estadisticas_sistema.add(N_Sistema, time());]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3826,8 +3780,7 @@ datasetSistema.add(N_Sistema, time());]]></Code>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola++;
-estadisticas_cola.add(N_Cola, time());
-datasetCola.add(N_Cola, time());]]></Code>
+estadisticas_cola.add(N_Cola, time());]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3850,7 +3803,6 @@ datasetCola.add(N_Cola, time());]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola--;
 estadisticas_cola.add(N_Cola, time());
-datasetCola.add(N_Cola, time());
 cajaRapida += 1;]]></Code>
 							</Value>
 						</Parameter>
@@ -3950,8 +3902,7 @@ cajaRapida += 1;]]></Code>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola++;
-estadisticas_cola.add(N_Cola, time());
-datasetCola.add(N_Cola, time());]]></Code>
+estadisticas_cola.add(N_Cola, time());]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3974,7 +3925,6 @@ datasetCola.add(N_Cola, time());]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola--;
 estadisticas_cola.add(N_Cola, time());
-datasetCola.add(N_Cola, time());
 cajaOrdinaria += 1;]]></Code>
 							</Value>
 						</Parameter>
@@ -4074,8 +4024,7 @@ cajaOrdinaria += 1;]]></Code>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola++;
-estadisticas_cola.add(N_Cola, time());
-datasetCola.add(N_Cola, time());]]></Code>
+estadisticas_cola.add(N_Cola, time());]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4098,7 +4047,6 @@ datasetCola.add(N_Cola, time());]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Cola--;
 estadisticas_cola.add(N_Cola, time());
-datasetCola.add(N_Cola, time());
 cajaEspecial += 1;]]></Code>
 							</Value>
 						</Parameter>
@@ -5785,8 +5733,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[N_Sistema++;
-estadisticas_sistema.add(N_Sistema, time());
-datasetSistema.add(N_Sistema, time());]]></Code>
+estadisticas_sistema.add(N_Sistema, time());]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -17442,7 +17389,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1603858504694</Id>
 					<Name><![CDATA[colaRapida]]></Name>
-					<X>369.461</X><Y>1169.4</Y>
+					<X>330</X><Y>1167.428</Y>
 					<Label><X>1.258</X><Y>77.942</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17495,7 +17442,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 				<QueueLine>
 					<Id>1603858504696</Id>
 					<Name><![CDATA[queueLine18]]></Name>
-					<X>369.461</X><Y>1151.972</Y>
+					<X>330</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17518,7 +17465,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1603858504698</Id>
 					<Name><![CDATA[servicePoint89]]></Name>
-					<X>369.461</X><Y>1229.472</Y>
+					<X>330</X><Y>1227.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17547,7 +17494,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1603858504703</Id>
 					<Name><![CDATA[colaPrioridad]]></Name>
-					<X>328</X><Y>1168.428</Y>
+					<X>370</X><Y>1167.428</Y>
 					<Label><X>1.258</X><Y>77.942</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17600,7 +17547,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 				<QueueLine>
 					<Id>1603858504705</Id>
 					<Name><![CDATA[queueLine19]]></Name>
-					<X>328</X><Y>1151</Y>
+					<X>370</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17623,7 +17570,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1603858504707</Id>
 					<Name><![CDATA[servicePoint90]]></Name>
-					<X>328</X><Y>1228.5</Y>
+					<X>370</X><Y>1227.5</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27393,7 +27340,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1603858505565</Id>
 					<Name><![CDATA[wall20]]></Name>
-					<X>985</X><Y>480</Y>
+					<X>990</X><Y>476</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -27406,13 +27353,13 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>20</ZHeight>
 					<Rotation>270.0</Rotation>
-					<Width>60</Width>
-					<Height>355</Height>
+					<Width>51</Width>
+					<Height>344</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1603858505567</Id>
 					<Name><![CDATA[wall21]]></Name>
-					<X>990</X><Y>620</Y>
+					<X>990</X><Y>616</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -27425,13 +27372,13 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>20</ZHeight>
 					<Rotation>270.0</Rotation>
-					<Width>60</Width>
-					<Height>355</Height>
+					<Width>51</Width>
+					<Height>344</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1603858505569</Id>
 					<Name><![CDATA[wall22]]></Name>
-					<X>985</X><Y>760</Y>
+					<X>990</X><Y>756</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -27444,13 +27391,13 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>20</ZHeight>
 					<Rotation>270.0</Rotation>
-					<Width>60</Width>
-					<Height>355</Height>
+					<Width>51</Width>
+					<Height>344</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1603858505571</Id>
 					<Name><![CDATA[wall23]]></Name>
-					<X>985</X><Y>900</Y>
+					<X>990</X><Y>896</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -27463,13 +27410,13 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>20</ZHeight>
 					<Rotation>270.0</Rotation>
-					<Width>60</Width>
-					<Height>355</Height>
+					<Width>51</Width>
+					<Height>345</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1603858505573</Id>
 					<Name><![CDATA[wall24]]></Name>
-					<X>985</X><Y>1030</Y>
+					<X>990</X><Y>1026</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -27482,8 +27429,8 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>20</ZHeight>
 					<Rotation>270.0</Rotation>
-					<Width>60</Width>
-					<Height>355</Height>
+					<Width>51</Width>
+					<Height>345</Height>
 				</RectangleWall>
 				<Rectangle>
 					<Id>1603858505575</Id>
@@ -27891,7 +27838,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[boolean]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[randomTrue(0.1);]]></Code>
+							<Code><![CDATA[randomTrue(0.01);]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -28103,7 +28050,7 @@ this.cantidadProductosBazar += ped.cantidadProductosComprados;]]></Code>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[Math.round(uniform_discr(16, 75))]]></Code>
+							<Code><![CDATA[uniform_discr(16, 75)]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1603908967317</Id>
@@ -28742,7 +28689,267 @@ Cliente 4 --> Niña]]></Text>
 				<FinalTime><![CDATA[100.0]]></FinalTime>	
 			</ModelTimeProperties>
 			<BypassInitialScreen>false</BypassInitialScreen>
-		</SimulationExperiment>	
+		</SimulationExperiment>
+		<!--   =========  Parameter Variation Experiment   ========  -->
+		<ParamVariationExperiment ActiveObjectClassId="1603858503878">
+			<Id>1604538494307</Id>
+			<Name><![CDATA[ParametersVariation]]></Name>
+			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<CommandLineArguments><![CDATA[]]></CommandLineArguments>
+			<MaximumMemory>512</MaximumMemory>
+			<RandomNumberGenerationType>randomSeed</RandomNumberGenerationType>
+			<CustomGeneratorCode>new Random()</CustomGeneratorCode>
+			<AfterSimulationRunCode><![CDATA[dataSISTEMA.add(root.tmeSISTEMA.distribution.mean());
+dataCOLA.add(root.tmeCAJA.distribution.mean());
+salidaFile.println("Tiempo en sistema: ");
+salidaFile.println(root.tmeSISTEMA.distribution.mean());
+salidaFile.println("Tiempo en cola: ");
+salidaFile.println(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode>
+			<SeedValue>1</SeedValue>
+			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
+			<VmArgs><![CDATA[]]></VmArgs>
+			<LoadRootFromSnapshot>false</LoadRootFromSnapshot>
+			<Connectivity>
+				<TextFile>
+					<Id>1604538496022</Id>
+					<Name><![CDATA[salidaFile]]></Name>
+					<X>60</X><Y>60</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<FileType>FILE</FileType>
+					<Url><![CDATA[]]></Url>
+					<ResourceReference>
+						<PackageName><![CDATA[tpi___lagallega4]]></PackageName>
+						<ClassName><![CDATA[C:/Users/ignac/Desktop/Salida Anylogic Modelo 4.txt]]></ClassName>
+					</ResourceReference>
+					<FileMode>WRITE_APPEND</FileMode>
+					<CharsetName>null</CharsetName>
+					<Separators>,</Separators>
+				</TextFile>
+			</Connectivity>
+			<AnalysisData>
+    			<HistogramData>
+					<Id>1604538496014</Id>
+					<Name><![CDATA[dataSISTEMA]]></Name>
+					<X>60</X><Y>90</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1604476800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<Value><![CDATA[]]></Value>
+					<NumberOfIntervals>10</NumberOfIntervals>
+					<MinMaxAutodetect>true</MinMaxAutodetect>
+					<RangeMinExpression><![CDATA[0]]></RangeMinExpression>
+					<RangeMaxExpression><![CDATA[1]]></RangeMaxExpression>
+					<InitialIntervalSize><![CDATA[0.1]]></InitialIntervalSize>
+					<CalculateCDF>false</CalculateCDF>
+					<CalculatePercentiles>false</CalculatePercentiles>
+					<LowPercent>10</LowPercent>
+					<HighPercent>10</HighPercent>
+					<Title><![CDATA[]]></Title>
+				</HistogramData>
+    			<HistogramData>
+					<Id>1604538496017</Id>
+					<Name><![CDATA[dataCOLA]]></Name>
+					<X>60</X><Y>120</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1604476800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<Value><![CDATA[]]></Value>
+					<NumberOfIntervals>10</NumberOfIntervals>
+					<MinMaxAutodetect>true</MinMaxAutodetect>
+					<RangeMinExpression><![CDATA[0]]></RangeMinExpression>
+					<RangeMaxExpression><![CDATA[1]]></RangeMaxExpression>
+					<InitialIntervalSize><![CDATA[0.1]]></InitialIntervalSize>
+					<CalculateCDF>false</CalculateCDF>
+					<CalculatePercentiles>false</CalculatePercentiles>
+					<LowPercent>10</LowPercent>
+					<HighPercent>10</HighPercent>
+					<Title><![CDATA[]]></Title>
+				</HistogramData>
+			</AnalysisData>
+
+			<Presentation>
+    			<Histogram>
+					<Id>1604538496007</Id>
+					<Name><![CDATA[chartSISTEMA]]></Name>
+					<X>30</X><Y>160</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>false</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1604476800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>260</Width>
+					<Height>210</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>180</Width>
+						<Height>120</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<ShowPDF>true</ShowPDF>
+					<ShowCDF>false</ShowCDF>
+					<ShowMean>false</ShowMean>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+					<HistogramDataExpression>
+					<Expression><![CDATA[dataSISTEMA]]></Expression>
+						<ColorPDF>-12004916</ColorPDF>
+						<ColorCDF>-3137392</ColorCDF>
+						<ColorLowPercent>-4565549</ColorLowPercent>
+						<ColorHighPercent>-6632142</ColorHighPercent>
+						<ColorMean>-16728065</ColorMean>
+						<LineWidth>1</LineWidth>						
+						<Title><![CDATA[Tiempo medio en sistema]]></Title>							
+					</HistogramDataExpression>
+    			</Histogram>
+    			<Histogram>
+					<Id>1604538496011</Id>
+					<Name><![CDATA[chartCOLA]]></Name>
+					<X>310</X><Y>160</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>false</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1604476800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>260</Width>
+					<Height>210</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>180</Width>
+						<Height>120</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<ShowPDF>true</ShowPDF>
+					<ShowCDF>false</ShowCDF>
+					<ShowMean>false</ShowMean>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+					<HistogramDataExpression>
+					<Expression><![CDATA[dataCOLA]]></Expression>
+						<ColorPDF>-9807155</ColorPDF>
+						<ColorCDF>-2448096</ColorCDF>
+						<ColorLowPercent>-4565549</ColorLowPercent>
+						<ColorHighPercent>-9807155</ColorHighPercent>
+						<ColorMean>-10496</ColorMean>
+						<LineWidth>1</LineWidth>						
+						<Title><![CDATA[Tiempo medio en cola]]></Title>							
+					</HistogramDataExpression>
+    			</Histogram>
+			</Presentation>
+
+			<AllowParallelEvaluations>true</AllowParallelEvaluations>
+			<UseFreeformParameters>true</UseFreeformParameters>
+			<NumberOfRuns>100</NumberOfRuns>
+			<ModelTimeProperties>
+				<StopOption><![CDATA[Stop at specified time]]></StopOption>
+				<InitialDate><![CDATA[1604534400000]]></InitialDate>	
+				<InitialTime><![CDATA[0.0]]></InitialTime>	
+				<FinalDate><![CDATA[1604549400000]]></FinalDate>	
+				<FinalTime><![CDATA[15000.0]]></FinalTime>	
+			</ModelTimeProperties>
+			<PresentationProperties>
+				<EnableZoomAndPanning>true</EnableZoomAndPanning>
+				<Title><![CDATA[TPI - LaGallega4 : ParametersVariation]]></Title>
+				<EnableDeveloperPanel>true</EnableDeveloperPanel>
+				<ShowDeveloperPanelOnStart>false</ShowDeveloperPanelOnStart>
+			</PresentationProperties>
+			<ReplicationsProperties>
+				<UseReplication>false</UseReplication>
+				<FixedReplicationsNumber>true</FixedReplicationsNumber>
+				<ReplicationPerIteration>10</ReplicationPerIteration>
+				<MinimumReplication>2</MinimumReplication>
+				<MaximumReplication>10</MaximumReplication>
+				<ConfidenceLevel>LEVEL_80</ConfidenceLevel>
+				<ErrorPercent>0.5</ErrorPercent>
+				<ExpressionForConfidenceComputation><![CDATA[0]]></ExpressionForConfidenceComputation>
+			</ReplicationsProperties>
+		</ParamVariationExperiment>	
 	</Experiments>
 	<ModelResources>
 		<Resource>
@@ -28835,6 +29042,10 @@ Cliente 4 --> Niña]]></Text>
 		</Resource>
 		<Resource>
 			<Path><![CDATA[3d/girl.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[C:/Users/ignac/Desktop/Salida Anylogic Modelo 4.txt]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 		</Resource>
 	</ModelResources>
