@@ -480,39 +480,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1600294355171</Id>
-					<Name><![CDATA[connector28]]></Name>
-					<X>2870</X><Y>2335</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[tmeSISTEMA]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[TimeMeasureEnd]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedSink]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedSink]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1600294415734</Id>
 					<Name><![CDATA[connector22]]></Name>
 					<X>2595</X><Y>2290</Y>
@@ -2341,6 +2308,72 @@
 					</Points>
 				</Connector>
 				<Connector>
+					<Id>1603811828350</Id>
+					<Name><![CDATA[connector57]]></Name>
+					<X>2460</X><Y>2500</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[tpi]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedGoTo3]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedGoTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[tpi]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[PagarCajaOrdinaria]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedService]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>30</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1600294355171</Id>
+					<Name><![CDATA[connector28]]></Name>
+					<X>2870</X><Y>2335</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[tpi]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[tmeSISTEMA]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[TimeMeasureEnd]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[tpi]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedSink]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSink]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>20</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
 					<Id>1603813164211</Id>
 					<Name><![CDATA[connector59]]></Name>
 					<X>2460</X><Y>2435</Y>
@@ -2373,39 +2406,6 @@
 						<Point><X>100</X><Y>0</Y></Point>
 						<Point><X>100</X><Y>-145</Y></Point>
 						<Point><X>125</X><Y>-145</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1603811828350</Id>
-					<Name><![CDATA[connector57]]></Name>
-					<X>2460</X><Y>2500</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedGoTo3]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedGoTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[PagarCajaOrdinaria]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedService]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>30</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -28718,39 +28718,35 @@ Cliente 4 --> Niña]]></Text>
 			<CustomGeneratorCode>new Random()</CustomGeneratorCode>
 			<AfterSimulationRunCode><![CDATA[dataSISTEMA.add(root.tmeSISTEMA.distribution.mean());
 dataCOLA.add(root.tmeCAJA.distribution.mean());
-salidaFile.println("Tiempo en sistema: ");
-salidaFile.println(root.tmeSISTEMA.distribution.mean());
-salidaFile.println("Tiempo en cola: ");
-salidaFile.println(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode>
+datasetSISTEMA.add(root.tmeSISTEMA.distribution.mean());
+datasetCOLA.add(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode>
 			<SeedValue>1</SeedValue>
 			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
 			<VmArgs><![CDATA[]]></VmArgs>
 			<LoadRootFromSnapshot>false</LoadRootFromSnapshot>
 			<Connectivity>
-				<TextFile>
-					<Id>1604433168285</Id>
-					<Name><![CDATA[salidaFile]]></Name>
-					<X>60</X><Y>60</Y>
+				<ExcelFile>
+					<Id>1604611876113</Id>
+					<Name><![CDATA[excelFile]]></Name>
+					<X>60</X><Y>20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<FileType>FILE</FileType>
-					<Url><![CDATA[]]></Url>
 					<ResourceReference>
 						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[C:/Users/ignac/Desktop/Salida Anylogic.txt]]></ClassName>
+						<ClassName><![CDATA[C:/Users/ignac/Desktop/salidaAnylogic.xlsx]]></ClassName>
 					</ResourceReference>
-					<FileMode>WRITE_APPEND</FileMode>
-					<CharsetName>null</CharsetName>
-					<Separators>,</Separators>
-				</TextFile>
+					<SaveInSnapshot>false</SaveInSnapshot>
+					<LoadOnStartup>true</LoadOnStartup>
+					<SaveOnDispose>true</SaveOnDispose>
+				</ExcelFile>
 			</Connectivity>
 			<AnalysisData>
     			<HistogramData>
 					<Id>1604433528281</Id>
 					<Name><![CDATA[dataSISTEMA]]></Name>
-					<X>60</X><Y>90</Y>
+					<X>60</X><Y>50</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28781,7 +28777,7 @@ salidaFile.println(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode
     			<HistogramData>
 					<Id>1604433540959</Id>
 					<Name><![CDATA[dataCOLA]]></Name>
-					<X>60</X><Y>120</Y>
+					<X>60</X><Y>70</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28809,6 +28805,50 @@ salidaFile.println(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode
 					<HighPercent>10</HighPercent>
 					<Title><![CDATA[]]></Title>
 				</HistogramData>
+    			<DataSet>
+					<Id>1604612461776</Id>
+					<Name><![CDATA[datasetSISTEMA]]></Name>
+					<X>60</X><Y>130</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1604649600000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<FreezeXAxis>true</FreezeXAxis>
+					<SamplesToKeep>100</SamplesToKeep>
+				</DataSet>
+    			<DataSet>
+					<Id>1604612637688</Id>
+					<Name><![CDATA[datasetCOLA]]></Name>
+					<X>60</X><Y>110</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1604649600000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<FreezeXAxis>true</FreezeXAxis>
+					<SamplesToKeep>100</SamplesToKeep>
+				</DataSet>
 			</AnalysisData>
 
 			<Presentation>
@@ -28940,15 +28980,17 @@ salidaFile.println(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode
     			</Histogram>
 			</Presentation>
 
+			<AfterExperimentCode><![CDATA[excelFile.writeDataSet(datasetSISTEMA, "Hoja1", 1, 1);
+excelFile.writeDataSet(datasetCOLA, "Hoja1", 1, 3);]]></AfterExperimentCode>
 			<AllowParallelEvaluations>true</AllowParallelEvaluations>
 			<UseFreeformParameters>true</UseFreeformParameters>
-			<NumberOfRuns>100</NumberOfRuns>
+			<NumberOfRuns>5</NumberOfRuns>
 			<ModelTimeProperties>
 				<StopOption><![CDATA[Stop at specified time]]></StopOption>
 				<InitialDate><![CDATA[1597017600000]]></InitialDate>	
 				<InitialTime><![CDATA[0.0]]></InitialTime>	
-				<FinalDate><![CDATA[1597032600000]]></FinalDate>	
-				<FinalTime><![CDATA[15000.0]]></FinalTime>	
+				<FinalDate><![CDATA[1597027600000]]></FinalDate>	
+				<FinalTime><![CDATA[10000.0]]></FinalTime>	
 			</ModelTimeProperties>
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
@@ -29062,7 +29104,7 @@ salidaFile.println(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 		</Resource>
 		<Resource>
-			<Path><![CDATA[C:/Users/ignac/Desktop/Salida Anylogic.txt]]></Path>
+			<Path><![CDATA[C:/Users/ignac/Desktop/salidaAnylogic.xlsx]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 		</Resource>
 	</ModelResources>
