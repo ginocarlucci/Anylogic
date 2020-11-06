@@ -260,7 +260,7 @@
 				</Variable>
 				<Variable Class="PlainVariable">
 					<Id>1601934094720</Id>
-					<Name><![CDATA[cantidadProductosAperitivos]]></Name>
+					<Name><![CDATA[cantidadProductosPerfumeria]]></Name>
 					<X>60</X><Y>2160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -1267,7 +1267,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarAperitivos]]></ItemName>
+						<ItemName><![CDATA[comprarPerfumeria]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -1584,7 +1584,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[comprarAperitivos]]></ItemName>
+						<ItemName><![CDATA[comprarPerfumeria]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
@@ -2680,7 +2680,7 @@ densityMap.display(densityEnabled);]]></Body>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorAperitivos  ]]></Code>
+								<Code><![CDATA[ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorPerfumeria  ]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -4333,7 +4333,7 @@ cajaEspecial += 1;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorVestimenta || ped.sectorBazar || ped.sectorLimpieza || ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorAperitivos]]></Code>
+								<Code><![CDATA[ped.sectorVestimenta || ped.sectorBazar || ped.sectorLimpieza || ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorPerfumeria]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5292,7 +5292,7 @@ this.cantidadProductosLimpieza += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorAperitivos]]></Code>
+								<Code><![CDATA[ped.sectorCongelados || ped.sectorBodega || ped.sectorConservas || ped.sectorPerfumeria]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5894,7 +5894,7 @@ estadisticas_sistema.add(N_Sistema, time());]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorAperitivos]]></Code>
+								<Code><![CDATA[ped.sectorPerfumeria]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6207,7 +6207,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1601564806870</Id>
-					<Name><![CDATA[comprarAperitivos]]></Name>
+					<Name><![CDATA[comprarPerfumeria]]></Name>
 					<X>2690</X><Y>2000</Y>
 					<Label><X>-25</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -6259,7 +6259,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onAtExitQueue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ped.sectorAperitivos = false;]]></Code>
+								<Code><![CDATA[ped.sectorPerfumeria = false;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6275,7 +6275,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[ped.cantidadProductosComprados += Math.round(uniform_discr(1, 4));
-this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
+this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -8034,7 +8034,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 						<Title><![CDATA[cantidadProductosConservas]]></Title>
 					</DataItem>
 					<DataItem>
-					<Expression><![CDATA[cantidadProductosAperitivos]]></Expression>
+					<Expression><![CDATA[cantidadProductosPerfumeria]]></Expression>
 					<Color>-4343957</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[cantidadProductosAperitivos]]></Title>
@@ -8147,10 +8147,10 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 						<Title><![CDATA[NroVisitasConservas]]></Title>
 					</DataItem>
 					<DataItem>
-					<Expression><![CDATA[comprarAperitivos.countPeds()]]></Expression>
+					<Expression><![CDATA[comprarPerfumeria.countPeds()]]></Expression>
 					<Color>-4343957</Color>
 					<Expression2Flag>true</Expression2Flag>
-						<Title><![CDATA[NroVisitasAperitivos]]></Title>
+						<Title><![CDATA[NroVisitasPerfumeria]]></Title>
 					</DataItem>
 					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
@@ -25343,7 +25343,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 					<Rotation>270.0</Rotation>
 					<Color>-16777216</Color>
 					<Text><![CDATA[text]]></Text>
-					<TextCode><![CDATA["Cantidad productos comprados: "+Integer.toString(this.cantidadProductosAperitivos)]]></TextCode>
+					<TextCode><![CDATA["Cantidad productos comprados: "+Integer.toString(this.cantidadProductosPerfumeria)]]></TextCode>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>14</Size>
@@ -27687,7 +27687,7 @@ this.cantidadProductosAperitivos += ped.cantidadProductosComprados;]]></Code>
 				</Variable>
 				<Variable Class="PlainVariable">
 					<Id>1601562334135</Id>
-					<Name><![CDATA[sectorAperitivos]]></Name>
+					<Name><![CDATA[sectorPerfumeria]]></Name>
 					<X>180</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -27740,12 +27740,12 @@ if(randomTrue(0.4)){
 this.sectorConservas = true;
 }
 if(randomTrue(0.4)){
-this.sectorAperitivos = true;
+this.sectorPerfumeria = true;
 }
 if(randomTrue(0.25)){
 this.sectorBazar = true;
 }
-if(randomTrue(0.65)){
+if(randomTrue(0.7)){
 this.sectorBebidas = true;
 }
 if(randomTrue(0.6)){
@@ -28354,7 +28354,7 @@ datasetCOLA.add(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode>
 					<ShowLabel>true</ShowLabel>
 					<ResourceReference>
 						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[C:/Users/ignac/Desktop/salidaAnylogic.xlsx]]></ClassName>
+						<ClassName><![CDATA[C:/Users/ignac/.AnyLogicProfessional/Workspace8.6/Anylogic/gallega/salidaAnylogic.xlsx]]></ClassName>
 					</ResourceReference>
 					<SaveInSnapshot>false</SaveInSnapshot>
 					<LoadOnStartup>true</LoadOnStartup>
@@ -28603,13 +28603,13 @@ datasetCOLA.add(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode>
 excelFile.writeDataSet(datasetCOLA, "Hoja1", 1, 3);]]></AfterExperimentCode>
 			<AllowParallelEvaluations>true</AllowParallelEvaluations>
 			<UseFreeformParameters>true</UseFreeformParameters>
-			<NumberOfRuns>30</NumberOfRuns>
+			<NumberOfRuns>100</NumberOfRuns>
 			<ModelTimeProperties>
 				<StopOption><![CDATA[Stop at specified time]]></StopOption>
 				<InitialDate><![CDATA[1597017600000]]></InitialDate>	
 				<InitialTime><![CDATA[0.0]]></InitialTime>	
-				<FinalDate><![CDATA[1597027600000]]></FinalDate>	
-				<FinalTime><![CDATA[10000.0]]></FinalTime>	
+				<FinalDate><![CDATA[1597047600000]]></FinalDate>	
+				<FinalTime><![CDATA[30000.0]]></FinalTime>	
 			</ModelTimeProperties>
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
@@ -28723,7 +28723,7 @@ excelFile.writeDataSet(datasetCOLA, "Hoja1", 1, 3);]]></AfterExperimentCode>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 		</Resource>
 		<Resource>
-			<Path><![CDATA[C:/Users/ignac/Desktop/salidaAnylogic.xlsx]]></Path>
+			<Path><![CDATA[C:/Users/ignac/.AnyLogicProfessional/Workspace8.6/Anylogic/gallega/salidaAnylogic.xlsx]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 		</Resource>
 	</ModelResources>
