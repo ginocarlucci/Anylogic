@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201426" AlpVersion="8.5.7">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201438" AlpVersion="8.5.7">
 <Model>
 	<Id>1597066027360</Id>
 	<Name><![CDATA[TPI - LaGallega]]></Name>
@@ -4438,11 +4438,14 @@ cajaEspecial += 1;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorConservas]]></Code>
+								<Code><![CDATA[sectorAlmacen]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[queueChoicePolicy]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.CHOICE_CLOSEST_QUEUE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[chooseQueue]]></Name>
@@ -7552,7 +7555,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 						<ColorHighPercent>-2987746</ColorHighPercent>
 						<ColorMean>-12799119</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[Tiempo promedio en sistema]]></Title>							
+						<Title><![CDATA[Tiempo promedio en sectores]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
     			<Histogram>
@@ -7615,7 +7618,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 						<ColorHighPercent>-16728065</ColorHighPercent>
 						<ColorMean>-2448096</ColorMean>
 						<LineWidth>1</LineWidth>						
-						<Title><![CDATA[]]></Title>							
+						<Title><![CDATA[Tiempo promedio en cola]]></Title>							
 					</HistogramDataExpression>
     			</Histogram>
 				<EmbeddedObjectPresentation>
@@ -17322,7 +17325,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602687702422</Id>
 					<Name><![CDATA[servicePoint104]]></Name>
-					<X>150</X><Y>980</Y>
+					<X>150</X><Y>820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17332,6 +17335,62 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
 					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676532168</Id>
+					<Name><![CDATA[servicePoint30]]></Name>
+					<X>150</X><Y>900</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676533022</Id>
+					<Name><![CDATA[servicePoint33]]></Name>
+					<X>150</X><Y>1020</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676533709</Id>
+					<Name><![CDATA[servicePoint35]]></Name>
+					<X>150</X><Y>1160</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676535845</Id>
+					<Name><![CDATA[servicePoint36]]></Name>
+					<X>210</X><Y>1220</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>90</Rotation>
 				</ServicePoint>
 			</Presentation>
 
@@ -20566,7 +20625,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602688843873</Id>
 					<Name><![CDATA[sectorConservas]]></Name>
-					<X>311</X><Y>1022</Y>
+					<X>253</X><Y>1022</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20647,6 +20706,48 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
 					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676244754</Id>
+					<Name><![CDATA[servicePoint21]]></Name>
+					<X>380</X><Y>1050</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>5</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676245454</Id>
+					<Name><![CDATA[servicePoint22]]></Name>
+					<X>330</X><Y>840</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676328642</Id>
+					<Name><![CDATA[servicePoint23]]></Name>
+					<X>390</X><Y>890</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>5</Rotation>
 				</ServicePoint>
 			</Presentation>
 
@@ -20736,6 +20837,48 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
 					<Rotation>180</Rotation>
 				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676204587</Id>
+					<Name><![CDATA[servicePoint18]]></Name>
+					<X>620</X><Y>840</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676219386</Id>
+					<Name><![CDATA[servicePoint19]]></Name>
+					<X>480</X><Y>840</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676234562</Id>
+					<Name><![CDATA[servicePoint20]]></Name>
+					<X>480</X><Y>1020</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
 			</Presentation>
 
 					<Z>0</Z>
@@ -20744,7 +20887,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602689379988</Id>
 					<Name><![CDATA[servicesLimpieza]]></Name>
-					<X>737</X><Y>906</Y>
+					<X>739</X><Y>921</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20803,7 +20946,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602689379990</Id>
 					<Name><![CDATA[servicePoint95]]></Name>
-					<X>778</X><Y>950</Y>
+					<X>690</X><Y>900</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20812,12 +20955,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>181</Rotation>
+					<Rotation>0</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602689379992</Id>
 					<Name><![CDATA[servicePoint96]]></Name>
-					<X>818</X><Y>950</Y>
+					<X>820</X><Y>940</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20831,7 +20974,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602765396561</Id>
 					<Name><![CDATA[servicePoint98]]></Name>
-					<X>688</X><Y>950</Y>
+					<X>690</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20846,6 +20989,48 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Id>1602765397804</Id>
 					<Name><![CDATA[servicePoint99]]></Name>
 					<X>918</X><Y>950</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676045907</Id>
+					<Name><![CDATA[servicePoint15]]></Name>
+					<X>920</X><Y>870</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676054388</Id>
+					<Name><![CDATA[servicePoint16]]></Name>
+					<X>780</X><Y>1050</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676072308</Id>
+					<Name><![CDATA[servicePoint17]]></Name>
+					<X>780</X><Y>840</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20953,7 +21138,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602765269838</Id>
 					<Name><![CDATA[servicePoint34]]></Name>
-					<X>1168</X><Y>540</Y>
+					<X>1070</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20981,7 +21166,49 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602765272022</Id>
 					<Name><![CDATA[servicePoint53]]></Name>
-					<X>1168</X><Y>680</Y>
+					<X>1100</X><Y>680</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>90</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676474413</Id>
+					<Name><![CDATA[servicePoint27]]></Name>
+					<X>1260</X><Y>680</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>90</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676489161</Id>
+					<Name><![CDATA[servicePoint28]]></Name>
+					<X>1290</X><Y>540</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>90</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676501537</Id>
+					<Name><![CDATA[servicePoint29]]></Name>
+					<X>1280</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21057,7 +21284,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602690076081</Id>
 					<Name><![CDATA[servicePoint101]]></Name>
-					<X>248</X><Y>520</Y>
+					<X>250</X><Y>550</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21071,7 +21298,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602690076083</Id>
 					<Name><![CDATA[servicePoint102]]></Name>
-					<X>338</X><Y>520</Y>
+					<X>340</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21085,7 +21312,49 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602770598161</Id>
 					<Name><![CDATA[servicePoint5]]></Name>
-					<X>390</X><Y>520</Y>
+					<X>390</X><Y>550</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>0</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675384243</Id>
+					<Name><![CDATA[servicePoint6]]></Name>
+					<X>250</X><Y>410</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>0</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675398454</Id>
+					<Name><![CDATA[servicePoint7]]></Name>
+					<X>340</X><Y>610</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>185</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675610970</Id>
+					<Name><![CDATA[servicePoint8]]></Name>
+					<X>380</X><Y>420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21173,7 +21442,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602690101098</Id>
 					<Name><![CDATA[servicePoint105]]></Name>
-					<X>618</X><Y>520</Y>
+					<X>615</X><Y>580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21188,6 +21457,48 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Id>1602765505386</Id>
 					<Name><![CDATA[servicePoint109]]></Name>
 					<X>478</X><Y>520</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675663039</Id>
+					<Name><![CDATA[servicePoint9]]></Name>
+					<X>525</X><Y>630</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>0</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675674348</Id>
+					<Name><![CDATA[servicePoint10]]></Name>
+					<X>520</X><Y>410</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>0</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675690515</Id>
+					<Name><![CDATA[servicePoint11]]></Name>
+					<X>615</X><Y>420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21265,7 +21576,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602690208862</Id>
 					<Name><![CDATA[servicePoint106]]></Name>
-					<X>778</X><Y>530</Y>
+					<X>820</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21274,12 +21585,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>181</Rotation>
+					<Rotation>0</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602690208864</Id>
 					<Name><![CDATA[servicePoint107]]></Name>
-					<X>818</X><Y>530</Y>
+					<X>820</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21307,7 +21618,49 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602765487308</Id>
 					<Name><![CDATA[servicePoint108]]></Name>
-					<X>918</X><Y>530</Y>
+					<X>920</X><Y>590</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675759854</Id>
+					<Name><![CDATA[servicePoint12]]></Name>
+					<X>780</X><Y>410</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675769684</Id>
+					<Name><![CDATA[servicePoint13]]></Name>
+					<X>780</X><Y>660</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>180</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604675790247</Id>
+					<Name><![CDATA[servicePoint14]]></Name>
+					<X>920</X><Y>420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25714,7 +26067,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602768813746</Id>
 					<Name><![CDATA[servicePoint1]]></Name>
-					<X>1170</X><Y>820</Y>
+					<X>1090</X><Y>820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25742,7 +26095,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602768816639</Id>
 					<Name><![CDATA[servicePoint3]]></Name>
-					<X>1170</X><Y>950</Y>
+					<X>1080</X><Y>940</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25756,7 +26109,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602768936952</Id>
 					<Name><![CDATA[servicePoint4]]></Name>
-					<X>1170</X><Y>1050</Y>
+					<X>1120</X><Y>1050</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25766,6 +26119,48 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
 					<Rotation>270</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676395583</Id>
+					<Name><![CDATA[servicePoint24]]></Name>
+					<X>1250</X><Y>1050</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>270</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676412770</Id>
+					<Name><![CDATA[servicePoint25]]></Name>
+					<X>1250</X><Y>950</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>90</Rotation>
+				</ServicePoint>
+				<ServicePoint>
+					<Id>1604676426372</Id>
+					<Name><![CDATA[servicePoint26]]></Name>
+					<X>1260</X><Y>820</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>90</Rotation>
 				</ServicePoint>
 			</Presentation>
 
@@ -27238,7 +27633,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Tiempo promedio en sistema]]></Text>
+					<Text><![CDATA[Tiempo promedio en sectores]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>18</Size>
