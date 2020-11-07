@@ -7,7 +7,7 @@
 <AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201426" AlpVersion="8.5.7">
 <Model>
 	<Id>1597066027360</Id>
-	<Name><![CDATA[TPI - LaGallega]]></Name>
+	<Name><![CDATA[TPI - Cambio de layout N1]]></Name>
 	<EngineVersion>6</EngineVersion>
 	<JavaPackageName><![CDATA[tpi]]></JavaPackageName>
 	<ModelTimeUnit><![CDATA[Second]]></ModelTimeUnit>
@@ -2201,13 +2201,13 @@
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>105</Y></Point>
-						<Point><X>70</X><Y>105</Y></Point>
+						<Point><X>90</X><Y>100</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1603813164211</Id>
 					<Name><![CDATA[connector59]]></Name>
-					<X>2460</X><Y>2435</Y>
+					<X>2480</X><Y>2430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2234,9 +2234,9 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>100</X><Y>0</Y></Point>
-						<Point><X>100</X><Y>-145</Y></Point>
-						<Point><X>125</X><Y>-145</Y></Point>
+						<Point><X>80</X><Y>5</Y></Point>
+						<Point><X>80</X><Y>-140</Y></Point>
+						<Point><X>105</X><Y>-140</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -5155,7 +5155,7 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[servicesLimpieza]]></Code>
+								<Code><![CDATA[sectorLimpieza]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6554,7 +6554,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<EmbeddedObject>
 					<Id>1603813007008</Id>
 					<Name><![CDATA[NoCompraProductos]]></Name>
-					<X>2420</X><Y>2425</Y>
+					<X>2440</X><Y>2420</Y>
 					<Label><X>-20</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6669,7 +6669,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<Rectangle>
 					<Id>1602284220327</Id>
 					<Name><![CDATA[rectangle28]]></Name>
-					<X>0</X><Y>80</Y>
+					<X>-1680</X><Y>80</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8270,25 +8270,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 						<Point><X>70</X><Y>-15</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
-				<RectangleWall>
-					<Id>1602687699496</Id>
-					<Name><![CDATA[wall339]]></Name>
-					<X>1390</X><Y>1010</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<Figure3D>
 					<Id>1602687699500</Id>
 					<Name><![CDATA[vending_machine16]]></Name>
@@ -8406,25 +8387,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Width>10</Width>
 					<Height>232.322</Height>
 				</RectangleWall>
-				<RectangleWall>
-					<Id>1602687699520</Id>
-					<Name><![CDATA[wall343]]></Name>
-					<X>1423.5</X><Y>1034.938</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<Figure3D>
 					<Id>1602687699526</Id>
 					<Name><![CDATA[cart32]]></Name>
@@ -8538,25 +8500,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<ZHeight>2</ZHeight>
 					<Rotation>90.0</Rotation>
 					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602687699560</Id>
-					<Name><![CDATA[wall349]]></Name>
-					<X>1475</X><Y>1010</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
 					<Height>46</Height>
 				</RectangleWall>
 				<Figure3D>
@@ -9144,25 +9087,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<InternalLighting>OFF</InternalLighting>
 					<IgnoreSceneLights>false</IgnoreSceneLights>
 				</Figure3D>
-				<RectangleWall>
-					<Id>1602687699717</Id>
-					<Name><![CDATA[wall356]]></Name>
-					<X>1402</X><Y>1010</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<Figure3D>
 					<Id>1602687699719</Id>
 					<Name><![CDATA[locker_14]]></Name>
@@ -9820,25 +9744,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<IgnoreSceneLights>false</IgnoreSceneLights>
 				</Figure3D>
 				<RectangleWall>
-					<Id>1602687699874</Id>
-					<Name><![CDATA[wall370]]></Name>
-					<X>1508.5</X><Y>1034.938</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
 					<Id>1602687699876</Id>
 					<Name><![CDATA[wall371]]></Name>
 					<X>148</X><Y>1230</Y>
@@ -9856,25 +9761,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Rotation>300.0</Rotation>
 					<Width>10.667</Width>
 					<Height>33.935</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602687699880</Id>
-					<Name><![CDATA[wall373]]></Name>
-					<X>1508.5</X><Y>1034.938</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602687699895</Id>
@@ -10252,13 +10138,13 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<Figure3D>
 					<Id>1602687700015</Id>
 					<Name><![CDATA[ticket_vending_machine_3]]></Name>
-					<X>1480</X><Y>770</Y>
+					<X>1415</X><Y>765</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1480</X><Y>770</Y><Z>0</Z>
+					<X>1415</X><Y>765</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[tpi]]></PackageName>
@@ -10529,25 +10415,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					</Font>
 					<Alignment>LEFT</Alignment>
 				</Text>
-				<RectangleWall>
-					<Id>1602687700092</Id>
-					<Name><![CDATA[wall395]]></Name>
-					<X>1487</X><Y>1010</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<Figure3D>
 					<Id>1602687700096</Id>
 					<Name><![CDATA[cart41]]></Name>
@@ -10643,25 +10510,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<InternalLighting>OFF</InternalLighting>
 					<IgnoreSceneLights>false</IgnoreSceneLights>
 				</Figure3D>
-				<RectangleWall>
-					<Id>1602687700136</Id>
-					<Name><![CDATA[wall397]]></Name>
-					<X>1423.5</X><Y>1023.438</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<RectangleWall>
 					<Id>1602687700139</Id>
 					<Name><![CDATA[wall398]]></Name>
@@ -10999,25 +10847,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Width>10</Width>
 					<Height>105.011</Height>
 				</RectangleWall>
-				<RectangleWall>
-					<Id>1602687700285</Id>
-					<Name><![CDATA[wall406]]></Name>
-					<X>1508</X><Y>1023.438</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>45.5</Height>
-				</RectangleWall>
 				<Figure3D>
 					<Id>1602687700288</Id>
 					<Name><![CDATA[cart44]]></Name>
@@ -11149,25 +10978,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Rotation>0.0</Rotation>
 					<Width>10</Width>
 					<Height>195</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602687700329</Id>
-					<Name><![CDATA[wall412]]></Name>
-					<X>1508.5</X><Y>1023.438</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
 				</RectangleWall>
 				<Wall>
 					<Id>1602687700331</Id>
@@ -12824,13 +12634,13 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<Figure3D>
 					<Id>1602687700979</Id>
 					<Name><![CDATA[monitor_on12]]></Name>
-					<X>1504</X><Y>765</Y>
+					<X>1439</X><Y>760</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1504</X><Y>765</Y><Z>12</Z>
+					<X>1439</X><Y>760</Y><Z>12</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[tpi]]></PackageName>
@@ -13027,13 +12837,13 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<Figure3D>
 					<Id>1602687701117</Id>
 					<Name><![CDATA[woman_11]]></Name>
-					<X>1513</X><Y>747</Y>
+					<X>1448</X><Y>742</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>1513</X><Y>747</Y><Z>0</Z>
+					<X>1448</X><Y>742</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[tpi]]></PackageName>
@@ -13140,25 +12950,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Rotation>180.0</Rotation>
 					<Width>10</Width>
 					<Height>77.576</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602687701163</Id>
-					<Name><![CDATA[wall466]]></Name>
-					<X>1423.5</X><Y>1034.938</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
 				</RectangleWall>
 				<Text>
 					<Id>1602687701165</Id>
@@ -13492,25 +13283,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Width>167.067</Width>
 					<Height>10</Height>
 				</RectangleWall>
-				<RectangleWall>
-					<Id>1602687701290</Id>
-					<Name><![CDATA[wall475]]></Name>
-					<X>1423</X><Y>1023.438</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>45.5</Height>
-				</RectangleWall>
 				<Figure3D>
 					<Id>1602687701294</Id>
 					<Name><![CDATA[cart52]]></Name>
@@ -13781,31 +13553,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Width>10.667</Width>
 					<Height>33.935</Height>
 				</RectangleWall>
-				<Wall>
-					<Id>1602687701396</Id>
-					<Name><![CDATA[wall484]]></Name>
-					<X>1400</X><Y>1008</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-4144960</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
-					<Closed>false</Closed>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>70</X><Y>-15</Y><Z>0</Z></Point>
-					</Points>
-				</Wall>
 				<RectangleWall>
 					<Id>1602687701412</Id>
 					<Name><![CDATA[wall485]]></Name>
@@ -13913,31 +13660,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>-10</X><Y>0</Y><Z>0</Z></Point>
-					</Points>
-				</Wall>
-				<Wall>
-					<Id>1602687701479</Id>
-					<Name><![CDATA[wall494]]></Name>
-					<X>1485</X><Y>1008</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-4144960</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
-					<Closed>false</Closed>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>70</X><Y>-15</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<RectangleWall>
@@ -14344,25 +14066,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<InternalLighting>OFF</InternalLighting>
 					<IgnoreSceneLights>false</IgnoreSceneLights>
 				</Figure3D>
-				<RectangleWall>
-					<Id>1602687701625</Id>
-					<Name><![CDATA[wall502]]></Name>
-					<X>1402</X><Y>1010</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<ServicePoint>
 					<Id>1602687701627</Id>
 					<Name><![CDATA[servicePoint74]]></Name>
@@ -14377,25 +14080,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
 					<Rotation>90</Rotation>
 				</ServicePoint>
-				<RectangleWall>
-					<Id>1602687701629</Id>
-					<Name><![CDATA[wall503]]></Name>
-					<X>1390</X><Y>1010</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<Figure3D>
 					<Id>1602687701631</Id>
 					<Name><![CDATA[cart56]]></Name>
@@ -14977,25 +14661,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<InternalLighting>OFF</InternalLighting>
 					<IgnoreSceneLights>false</IgnoreSceneLights>
 				</Figure3D>
-				<RectangleWall>
-					<Id>1602687701815</Id>
-					<Name><![CDATA[wall525]]></Name>
-					<X>1487</X><Y>1010</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<Wall>
 					<Id>1602687701817</Id>
 					<Name><![CDATA[wall526]]></Name>
@@ -16215,25 +15880,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Width>10</Width>
 					<Height>105.011</Height>
 				</RectangleWall>
-				<RectangleWall>
-					<Id>1602687702233</Id>
-					<Name><![CDATA[wall577]]></Name>
-					<X>1475</X><Y>1010</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
 				<Figure3D>
 					<Id>1602687702237</Id>
 					<Name><![CDATA[monitor_on15]]></Name>
@@ -17264,7 +16910,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602687702420</Id>
-					<Name><![CDATA[sectorSnacks]]></Name>
+					<Name><![CDATA[sectorLimpieza]]></Name>
 					<X>176</X><Y>1203</Y>
 					<Label><X>-70.679</X><Y>1811.256</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -19549,7 +19195,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125760</Id>
 					<Name><![CDATA[wall500]]></Name>
-					<X>1332.76</X><Y>1002.845</Y>
+					<X>1448.76</X><Y>996.845</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19568,7 +19214,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125762</Id>
 					<Name><![CDATA[wall501]]></Name>
-					<X>1332.76</X><Y>1002.845</Y>
+					<X>1448.76</X><Y>996.845</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19587,7 +19233,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125764</Id>
 					<Name><![CDATA[wall505]]></Name>
-					<X>992.083</X><Y>998.039</Y>
+					<X>1108.083</X><Y>992.039</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19606,7 +19252,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<Wall>
 					<Id>1602688125766</Id>
 					<Name><![CDATA[wall507]]></Name>
-					<X>988</X><Y>1005</Y>
+					<X>1104</X><Y>999</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19631,7 +19277,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125768</Id>
 					<Name><![CDATA[wall508]]></Name>
-					<X>992.9</X><Y>997.895</Y>
+					<X>1108.9</X><Y>991.895</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19650,7 +19296,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125770</Id>
 					<Name><![CDATA[wall509]]></Name>
-					<X>992.083</X><Y>998.039</Y>
+					<X>1108.083</X><Y>992.039</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19669,7 +19315,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125772</Id>
 					<Name><![CDATA[wall510]]></Name>
-					<X>1332.76</X><Y>1004.112</Y>
+					<X>1448.76</X><Y>998.112</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19688,7 +19334,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125774</Id>
 					<Name><![CDATA[wall511]]></Name>
-					<X>990.801</X><Y>1024.112</Y>
+					<X>1106.801</X><Y>1018.112</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19707,7 +19353,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125776</Id>
 					<Name><![CDATA[wall515]]></Name>
-					<X>992.083</X><Y>998.039</Y>
+					<X>1108.083</X><Y>992.039</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19726,7 +19372,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125778</Id>
 					<Name><![CDATA[wall516]]></Name>
-					<X>1332.76</X><Y>1002.845</Y>
+					<X>1448.76</X><Y>996.845</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19745,7 +19391,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688125780</Id>
 					<Name><![CDATA[wall518]]></Name>
-					<X>992.083</X><Y>998.039</Y>
+					<X>1108.083</X><Y>992.039</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19764,7 +19410,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149846</Id>
 					<Name><![CDATA[wall524]]></Name>
-					<X>1332.76</X><Y>872.845</Y>
+					<X>1448.76</X><Y>866.845</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19783,7 +19429,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149848</Id>
 					<Name><![CDATA[wall527]]></Name>
-					<X>1332.76</X><Y>872.845</Y>
+					<X>1448.76</X><Y>866.845</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19802,7 +19448,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149850</Id>
 					<Name><![CDATA[wall528]]></Name>
-					<X>992.083</X><Y>868.039</Y>
+					<X>1108.083</X><Y>862.039</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19821,7 +19467,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<Wall>
 					<Id>1602688149852</Id>
 					<Name><![CDATA[wall529]]></Name>
-					<X>992</X><Y>870</Y>
+					<X>1108</X><Y>864</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19846,7 +19492,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149854</Id>
 					<Name><![CDATA[wall530]]></Name>
-					<X>992.9</X><Y>867.895</Y>
+					<X>1108.9</X><Y>861.895</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19865,7 +19511,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149856</Id>
 					<Name><![CDATA[wall531]]></Name>
-					<X>992.083</X><Y>868.039</Y>
+					<X>1108.083</X><Y>862.039</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19884,7 +19530,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149858</Id>
 					<Name><![CDATA[wall532]]></Name>
-					<X>1332.76</X><Y>874.112</Y>
+					<X>1448.76</X><Y>868.112</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19903,7 +19549,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149860</Id>
 					<Name><![CDATA[wall533]]></Name>
-					<X>990.801</X><Y>894.112</Y>
+					<X>1106.801</X><Y>888.112</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19922,7 +19568,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149862</Id>
 					<Name><![CDATA[wall534]]></Name>
-					<X>992.083</X><Y>868.039</Y>
+					<X>1108.083</X><Y>862.039</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19941,7 +19587,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149864</Id>
 					<Name><![CDATA[wall536]]></Name>
-					<X>1332.76</X><Y>872.845</Y>
+					<X>1448.76</X><Y>866.845</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19960,7 +19606,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688149866</Id>
 					<Name><![CDATA[wall537]]></Name>
-					<X>992.083</X><Y>868.039</Y>
+					<X>1108.083</X><Y>862.039</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19979,7 +19625,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602688158377</Id>
 					<Name><![CDATA[wall538]]></Name>
-					<X>1332.76</X><Y>732.845</Y>
+					<X>1024.95</X><Y>750.14</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19991,14 +19637,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
+					<Rotation>0.0</Rotation>
 					<Width>21.267</Width>
 					<Height>341.213</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602688158379</Id>
 					<Name><![CDATA[wall539]]></Name>
-					<X>1332.76</X><Y>732.845</Y>
+					<X>1024.95</X><Y>750.14</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20010,14 +19656,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
+					<Rotation>0.0</Rotation>
 					<Width>21.267</Width>
 					<Height>341.213</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602688158381</Id>
 					<Name><![CDATA[wall540]]></Name>
-					<X>992.083</X><Y>728.039</Y>
+					<X>1020.144</X><Y>1090.817</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20029,14 +19675,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>2</ZHeight>
-					<Rotation>270.0</Rotation>
+					<Rotation>180.0</Rotation>
 					<Width>21.666666666666664</Width>
 					<Height>341.2595647946254</Height>
 				</RectangleWall>
 				<Wall>
 					<Id>1602688158383</Id>
 					<Name><![CDATA[wall541]]></Name>
-					<X>992</X><Y>730</Y>
+					<X>1022.105</X><Y>1090.9</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20051,17 +19697,17 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0.016</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0.016</Y><Z>0</Z></Point>
-						<Point><X>342.359</X><Y>0.217</Y><Z>0</Z></Point>
-						<Point><X>317.359</X><Y>0.201</Y><Z>0</Z></Point>
-						<Point><X>317.359</X><Y>0.201</Y><Z>0</Z></Point>
+						<Point><X>0.016</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0.016</X><Y>-25</Y><Z>0</Z></Point>
+						<Point><X>0.217</X><Y>-342.359</Y><Z>0</Z></Point>
+						<Point><X>0.201</X><Y>-317.359</Y><Z>0</Z></Point>
+						<Point><X>0.201</X><Y>-317.359</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<RectangleWall>
 					<Id>1602688158385</Id>
 					<Name><![CDATA[wall542]]></Name>
-					<X>992.9</X><Y>727.895</Y>
+					<X>1020</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20073,14 +19719,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>38</ZHeight>
-					<Rotation>270.0</Rotation>
+					<Rotation>180.0</Rotation>
 					<Width>21.233333333333334</Width>
 					<Height>341.2595647946254</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602688158387</Id>
 					<Name><![CDATA[wall543]]></Name>
-					<X>992.083</X><Y>728.039</Y>
+					<X>1020.144</X><Y>1090.817</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20092,14 +19738,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>2</ZHeight>
-					<Rotation>270.0</Rotation>
+					<Rotation>180.0</Rotation>
 					<Width>21.666666666666664</Width>
 					<Height>341.2595647946254</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602688158389</Id>
 					<Name><![CDATA[wall545]]></Name>
-					<X>1332.76</X><Y>734.112</Y>
+					<X>1026.217</X><Y>750.14</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20111,14 +19757,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
+					<Rotation>0.0</Rotation>
 					<Width>20</Width>
 					<Height>341.213</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602688158391</Id>
 					<Name><![CDATA[wall546]]></Name>
-					<X>990.801</X><Y>754.112</Y>
+					<X>1046.217</X><Y>1092.099</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20130,14 +19776,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>38</ZHeight>
-					<Rotation>270.0</Rotation>
+					<Rotation>180.0</Rotation>
 					<Width>21.233333333333334</Width>
 					<Height>341.2595647946254</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602688158393</Id>
 					<Name><![CDATA[wall549]]></Name>
-					<X>992.083</X><Y>728.039</Y>
+					<X>1020.144</X><Y>1090.817</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20149,14 +19795,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>2</ZHeight>
-					<Rotation>270.0</Rotation>
+					<Rotation>180.0</Rotation>
 					<Width>21.666666666666664</Width>
 					<Height>341.2595647946254</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602688158395</Id>
 					<Name><![CDATA[wall552]]></Name>
-					<X>1332.76</X><Y>732.845</Y>
+					<X>1024.95</X><Y>750.14</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20168,14 +19814,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
+					<Rotation>0.0</Rotation>
 					<Width>21.267</Width>
 					<Height>341.213</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602688158397</Id>
 					<Name><![CDATA[wall553]]></Name>
-					<X>992.083</X><Y>728.039</Y>
+					<X>1020.144</X><Y>1090.817</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20187,7 +19833,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>2</ZHeight>
-					<Rotation>270.0</Rotation>
+					<Rotation>180.0</Rotation>
 					<Width>21.666666666666664</Width>
 					<Height>341.2595647946254</Height>
 				</RectangleWall>
@@ -20886,9 +20532,9 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602689379988</Id>
-					<Name><![CDATA[servicesLimpieza]]></Name>
-					<X>739</X><Y>921</Y>
-					<Label><X>10</X><Y>0</Y></Label>
+					<Name><![CDATA[sectorSnacks]]></Name>
+					<X>746</X><Y>1642</Y>
+					<Label><X>1551.5</X><Y>-695.5</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
@@ -20898,7 +20544,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<PolygonArea>
 					<Id>1602689379986</Id>
 					<Name><![CDATA[waitingArea18]]></Name>
-					<X>658</X><Y>755</Y>
+					<X>995</X><Y>665</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20930,23 +20576,23 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>365</Y></Point>
-						<Point><X>280</X><Y>365</Y></Point>
-						<Point><X>280</X><Y>0</Y></Point>
-						<Point><X>245</X><Y>0</Y></Point>
-						<Point><X>245</X><Y>344</Y></Point>
-						<Point><X>180</X><Y>343</Y></Point>
-						<Point><X>180</X><Y>0</Y></Point>
-						<Point><X>105</X><Y>0</Y></Point>
-						<Point><X>105</X><Y>343</Y></Point>
-						<Point><X>45</X><Y>343</Y></Point>
-						<Point><X>45</X><Y>0</Y></Point>
+						<Point><X>365</X><Y>0</Y></Point>
+						<Point><X>365</X><Y>-280</Y></Point>
+						<Point><X>0</X><Y>-280</Y></Point>
+						<Point><X>0</X><Y>-245</Y></Point>
+						<Point><X>344</X><Y>-245</Y></Point>
+						<Point><X>343</X><Y>-180</Y></Point>
+						<Point><X>0</X><Y>-180</Y></Point>
+						<Point><X>0</X><Y>-105</Y></Point>
+						<Point><X>343</X><Y>-105</Y></Point>
+						<Point><X>343</X><Y>-45</Y></Point>
+						<Point><X>0</X><Y>-45</Y></Point>
 					</Points>
 				</PolygonArea>
 				<ServicePoint>
 					<Id>1602689379990</Id>
 					<Name><![CDATA[servicePoint95]]></Name>
-					<X>690</X><Y>900</Y>
+					<X>1140</X><Y>633</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20955,12 +20601,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>0</Rotation>
+					<Rotation>270</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602689379992</Id>
 					<Name><![CDATA[servicePoint96]]></Name>
-					<X>820</X><Y>940</Y>
+					<X>1180</X><Y>503</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20969,12 +20615,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>0</Rotation>
+					<Rotation>270</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602765396561</Id>
 					<Name><![CDATA[servicePoint98]]></Name>
-					<X>690</X><Y>1000</Y>
+					<X>1240</X><Y>633</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20983,12 +20629,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>0</Rotation>
+					<Rotation>270</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602765397804</Id>
 					<Name><![CDATA[servicePoint99]]></Name>
-					<X>918</X><Y>950</Y>
+					<X>1190</X><Y>405</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20997,12 +20643,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>180</Rotation>
+					<Rotation>90</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1604676045907</Id>
 					<Name><![CDATA[servicePoint15]]></Name>
-					<X>920</X><Y>870</Y>
+					<X>1110</X><Y>403</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21011,12 +20657,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>180</Rotation>
+					<Rotation>90</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1604676054388</Id>
 					<Name><![CDATA[servicePoint16]]></Name>
-					<X>780</X><Y>1050</Y>
+					<X>1290</X><Y>543</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21025,12 +20671,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>180</Rotation>
+					<Rotation>90</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1604676072308</Id>
 					<Name><![CDATA[servicePoint17]]></Name>
-					<X>780</X><Y>840</Y>
+					<X>1080</X><Y>543</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21039,7 +20685,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>180</Rotation>
+					<Rotation>90</Rotation>
 				</ServicePoint>
 			</Presentation>
 
@@ -21049,8 +20695,8 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602689553033</Id>
 					<Name><![CDATA[sectorBazar]]></Name>
-					<X>823</X><Y>440</Y>
-					<Label><X>10</X><Y>-1.646</Y></Label>
+					<X>883</X><Y>588</Y>
+					<Label><X>-642.854</X><Y>905.5</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
@@ -21060,7 +20706,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<PolygonArea>
 					<Id>1602689553031</Id>
 					<Name><![CDATA[waitingArea16]]></Name>
-					<X>993</X><Y>420</Y>
+					<X>900</X><Y>755</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21078,7 +20724,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Slope>
 						<Id>1602689553029</Id>
 						<Name><![CDATA[waitingArea16]]></Name>
-						<X>145</X><Y>8.101</Y>
+						<X>148</X><Y>-58.899</Y>
 						<PublicFlag>false</PublicFlag>
 						<PresentationFlag>true</PresentationFlag>
 						<ShowLabel>true</ShowLabel>
@@ -21092,25 +20738,23 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>345</X><Y>0</Y></Point>
-						<Point><X>345</X><Y>60</Y></Point>
-						<Point><X>0</X><Y>60</Y></Point>
-						<Point><X>0</X><Y>135</Y></Point>
-						<Point><X>350</X><Y>135</Y></Point>
-						<Point><X>350</X><Y>200</Y></Point>
-						<Point><X>0</X><Y>200</Y></Point>
-						<Point><X>0</X><Y>275</Y></Point>
-						<Point><X>347</X><Y>275</Y></Point>
-						<Point><X>347</X><Y>335</Y></Point>
-						<Point><X>367</X><Y>335</Y></Point>
-						<Point><X>365</X><Y>-45</Y></Point>
-						<Point><X>0</X><Y>-45</Y></Point>
+						<Point><X>3</X><Y>348</Y></Point>
+						<Point><X>-57</X><Y>348</Y></Point>
+						<Point><X>-60</X><Y>0</Y></Point>
+						<Point><X>-140</X><Y>0</Y></Point>
+						<Point><X>-137</X><Y>348</Y></Point>
+						<Point><X>-197</X><Y>348</Y></Point>
+						<Point><X>-200</X><Y>0</Y></Point>
+						<Point><X>-240</X><Y>0</Y></Point>
+						<Point><X>-240</X><Y>365</Y></Point>
+						<Point><X>40</X><Y>365</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
 					</Points>
 				</PolygonArea>
 				<ServicePoint>
 					<Id>1602765254815</Id>
 					<Name><![CDATA[servicePoint31]]></Name>
-					<X>1168</X><Y>400</Y>
+					<X>915</X><Y>825</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21119,12 +20763,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>90</Rotation>
+					<Rotation>180</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602765268287</Id>
 					<Name><![CDATA[servicePoint32]]></Name>
-					<X>1168</X><Y>500</Y>
+					<X>823</X><Y>933</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21133,12 +20777,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>270</Rotation>
+					<Rotation>0</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602765269838</Id>
 					<Name><![CDATA[servicePoint34]]></Name>
-					<X>1070</X><Y>540</Y>
+					<X>783</X><Y>835</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21147,12 +20791,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>90</Rotation>
+					<Rotation>180</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602765270914</Id>
 					<Name><![CDATA[servicePoint52]]></Name>
-					<X>1168</X><Y>640</Y>
+					<X>688</X><Y>933</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21161,12 +20805,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>270</Rotation>
+					<Rotation>0</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602765272022</Id>
 					<Name><![CDATA[servicePoint53]]></Name>
-					<X>1100</X><Y>680</Y>
+					<X>688</X><Y>818</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21175,12 +20819,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>90</Rotation>
+					<Rotation>1</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1604676474413</Id>
 					<Name><![CDATA[servicePoint27]]></Name>
-					<X>1260</X><Y>680</Y>
+					<X>688</X><Y>1023</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21189,12 +20833,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>90</Rotation>
+					<Rotation>5</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1604676489161</Id>
 					<Name><![CDATA[servicePoint28]]></Name>
-					<X>1290</X><Y>540</Y>
+					<X>783</X><Y>1055</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21203,12 +20847,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>90</Rotation>
+					<Rotation>180</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1604676501537</Id>
 					<Name><![CDATA[servicePoint29]]></Name>
-					<X>1280</X><Y>410</Y>
+					<X>915</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21217,7 +20861,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>90</Rotation>
+					<Rotation>180</Rotation>
 				</ServicePoint>
 			</Presentation>
 
@@ -21372,7 +21016,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602690101094</Id>
-					<Name><![CDATA[sectorBodega]]></Name>
+					<Name><![CDATA[sectorVestimenta]]></Name>
 					<X>533</X><Y>502</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -22349,360 +21993,6 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Rotation>0.0</Rotation>
 					<Width>58</Width>
 					<Height>39</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522353</Id>
-					<Name><![CDATA[wall611]]></Name>
-					<X>1421</X><Y>943.438</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>45.5</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522368</Id>
-					<Name><![CDATA[wall612]]></Name>
-					<X>1473</X><Y>930</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522380</Id>
-					<Name><![CDATA[wall613]]></Name>
-					<X>1506</X><Y>943.438</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>45.5</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522393</Id>
-					<Name><![CDATA[wall614]]></Name>
-					<X>1400</X><Y>930</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<Wall>
-					<Id>1602763522403</Id>
-					<Name><![CDATA[wall623]]></Name>
-					<X>1398</X><Y>928</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-4144960</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
-					<Closed>false</Closed>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>70</X><Y>-15</Y><Z>0</Z></Point>
-					</Points>
-				</Wall>
-				<RectangleWall>
-					<Id>1602763522413</Id>
-					<Name><![CDATA[wall624]]></Name>
-					<X>1421.5</X><Y>943.438</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<Wall>
-					<Id>1602763522423</Id>
-					<Name><![CDATA[wall625]]></Name>
-					<X>1483</X><Y>928</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-4144960</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
-					<Closed>false</Closed>
-					<Points>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>70</X><Y>-15</Y><Z>0</Z></Point>
-					</Points>
-				</Wall>
-				<RectangleWall>
-					<Id>1602763522428</Id>
-					<Name><![CDATA[wall626]]></Name>
-					<X>1388</X><Y>930</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522433</Id>
-					<Name><![CDATA[wall627]]></Name>
-					<X>1421.5</X><Y>954.938</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522443</Id>
-					<Name><![CDATA[wall628]]></Name>
-					<X>1400</X><Y>930</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522448</Id>
-					<Name><![CDATA[wall629]]></Name>
-					<X>1421.5</X><Y>954.938</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522453</Id>
-					<Name><![CDATA[wall630]]></Name>
-					<X>1506.5</X><Y>954.938</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522458</Id>
-					<Name><![CDATA[wall631]]></Name>
-					<X>1485</X><Y>930</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522468</Id>
-					<Name><![CDATA[wall632]]></Name>
-					<X>1485</X><Y>930</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522473</Id>
-					<Name><![CDATA[wall633]]></Name>
-					<X>1473</X><Y>930</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522478</Id>
-					<Name><![CDATA[wall634]]></Name>
-					<X>1506.5</X><Y>954.938</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522480</Id>
-					<Name><![CDATA[wall635]]></Name>
-					<X>1388</X><Y>930</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>8</Width>
-					<Height>46</Height>
-				</RectangleWall>
-				<RectangleWall>
-					<Id>1602763522488</Id>
-					<Name><![CDATA[wall636]]></Name>
-					<X>1506.5</X><Y>943.438</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>10</Z>
-					<LineColor>-10185235</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>2</ZHeight>
-					<Rotation>90.0</Rotation>
-					<Width>7.667</Width>
-					<Height>46</Height>
 				</RectangleWall>
 				<Wall>
 					<Id>1602764242197</Id>
@@ -25993,8 +25283,8 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602768604939</Id>
-					<Name><![CDATA[sectorVestimenta]]></Name>
-					<X>524</X><Y>826</Y>
+					<Name><![CDATA[sectorBodega]]></Name>
+					<X>640</X><Y>820</Y>
 					<Label><X>10</X><Y>-1.646</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26005,7 +25295,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<PolygonArea>
 					<Id>1602768604937</Id>
 					<Name><![CDATA[waitingArea23]]></Name>
-					<X>995</X><Y>840</Y>
+					<X>1050</X><Y>835</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26023,7 +25313,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Slope>
 						<Id>1602768604935</Id>
 						<Name><![CDATA[waitingArea23]]></Name>
-						<X>142</X><Y>-23.899</Y>
+						<X>203</X><Y>-24.899</Y>
 						<PublicFlag>false</PublicFlag>
 						<PresentationFlag>true</PresentationFlag>
 						<ShowLabel>true</ShowLabel>
@@ -26037,37 +25327,25 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>345</X><Y>0</Y></Point>
-						<Point><X>345</X><Y>60</Y></Point>
+						<Point><X>406</X><Y>-1</Y></Point>
+						<Point><X>406</X><Y>59</Y></Point>
 						<Point><X>0</X><Y>60</Y></Point>
-						<Point><X>0</X><Y>125</Y></Point>
-						<Point><X>345</X><Y>125</Y></Point>
-						<Point><X>345</X><Y>195</Y></Point>
-						<Point><X>0</X><Y>195</Y></Point>
-						<Point><X>0</X><Y>245</Y></Point>
-						<Point><X>365</X><Y>245</Y></Point>
-						<Point><X>365</X><Y>-80</Y></Point>
+						<Point><X>0</X><Y>130</Y></Point>
+						<Point><X>405</X><Y>130</Y></Point>
+						<Point><X>405</X><Y>190</Y></Point>
+						<Point><X>0</X><Y>190</Y></Point>
+						<Point><X>0</X><Y>240</Y></Point>
+						<Point><X>440</X><Y>240</Y></Point>
+						<Point><X>440</X><Y>-30</Y></Point>
+						<Point><X>205</X><Y>-30</Y></Point>
+						<Point><X>205</X><Y>-80</Y></Point>
 						<Point><X>0</X><Y>-80</Y></Point>
 					</Points>
 				</PolygonArea>
 				<ServicePoint>
 					<Id>1602768788478</Id>
 					<Name><![CDATA[servicePoint]]></Name>
-					<X>1170</X><Y>780</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
-					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>270</Rotation>
-				</ServicePoint>
-				<ServicePoint>
-					<Id>1602768813746</Id>
-					<Name><![CDATA[servicePoint1]]></Name>
-					<X>1090</X><Y>820</Y>
+					<X>1235</X><Y>815</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26079,9 +25357,23 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Rotation>90</Rotation>
 				</ServicePoint>
 				<ServicePoint>
+					<Id>1602768813746</Id>
+					<Name><![CDATA[servicePoint1]]></Name>
+					<X>1070</X><Y>795</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+					<Rotation>185</Rotation>
+				</ServicePoint>
+				<ServicePoint>
 					<Id>1602768815505</Id>
 					<Name><![CDATA[servicePoint2]]></Name>
-					<X>1170</X><Y>910</Y>
+					<X>1286</X><Y>904</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26095,7 +25387,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1602768816639</Id>
 					<Name><![CDATA[servicePoint3]]></Name>
-					<X>1080</X><Y>940</Y>
+					<X>1070</X><Y>930</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26104,12 +25396,12 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<Z>0</Z>
 					<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
-					<Rotation>90</Rotation>
+					<Rotation>180</Rotation>
 				</ServicePoint>
 				<ServicePoint>
 					<Id>1602768936952</Id>
 					<Name><![CDATA[servicePoint4]]></Name>
-					<X>1120</X><Y>1050</Y>
+					<X>1185</X><Y>1055</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26123,7 +25415,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1604676395583</Id>
 					<Name><![CDATA[servicePoint24]]></Name>
-					<X>1250</X><Y>1050</Y>
+					<X>1366</X><Y>1044</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26137,7 +25429,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1604676412770</Id>
 					<Name><![CDATA[servicePoint25]]></Name>
-					<X>1250</X><Y>950</Y>
+					<X>1366</X><Y>944</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26151,7 +25443,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServicePoint>
 					<Id>1604676426372</Id>
 					<Name><![CDATA[servicePoint26]]></Name>
-					<X>1260</X><Y>820</Y>
+					<X>1375</X><Y>820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26169,7 +25461,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<Rectangle>
 					<Id>1602768985467</Id>
 					<Name><![CDATA[rectangle37]]></Name>
-					<X>1290</X><Y>850</Y>
+					<X>1406</X><Y>844</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26191,7 +25483,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<Text>
 					<Id>1602768985469</Id>
 					<Name><![CDATA[text25]]></Name>
-					<X>1060</X><Y>850</Y>
+					<X>1176</X><Y>844</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27436,7 +26728,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602779332677</Id>
 					<Name><![CDATA[wall22]]></Name>
-					<X>990</X><Y>755</Y>
+					<X>1047.105</X><Y>1092.9</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -27448,14 +26740,14 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>20</ZHeight>
-					<Rotation>270.0</Rotation>
+					<Rotation>180.0</Rotation>
 					<Width>50</Width>
 					<Height>345</Height>
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1602779340625</Id>
 					<Name><![CDATA[wall23]]></Name>
-					<X>990</X><Y>895</Y>
+					<X>1106</X><Y>889</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -27474,7 +26766,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<RectangleWall>
 					<Id>1602779348062</Id>
 					<Name><![CDATA[wall24]]></Name>
-					<X>990</X><Y>1025</Y>
+					<X>1106</X><Y>1019</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -29003,8 +28295,8 @@ excelFile.writeDataSet(datasetCOLA, "Hoja1", 1, 3);]]></AfterExperimentCode>
 				<StopOption><![CDATA[Stop at specified time]]></StopOption>
 				<InitialDate><![CDATA[1597017600000]]></InitialDate>	
 				<InitialTime><![CDATA[0.0]]></InitialTime>	
-				<FinalDate><![CDATA[1597047600000]]></FinalDate>	
-				<FinalTime><![CDATA[30000.0]]></FinalTime>	
+				<FinalDate><![CDATA[1597032600000]]></FinalDate>	
+				<FinalTime><![CDATA[15000.0]]></FinalTime>	
 			</ModelTimeProperties>
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
