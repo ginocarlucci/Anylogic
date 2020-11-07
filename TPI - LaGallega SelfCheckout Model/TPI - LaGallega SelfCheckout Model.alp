@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201438" AlpVersion="8.5.7">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201426" AlpVersion="8.5.7">
 <Model>
 	<Id>1597066027360</Id>
 	<Name><![CDATA[TPI - LaGallega SelfCheckout Model]]></Name>
@@ -5233,7 +5233,7 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[servicesLimpieza]]></Code>
+								<Code><![CDATA[sectorLimpieza]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20641,7 +20641,7 @@ selfCheckout += 1;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602689379988</Id>
-					<Name><![CDATA[servicesLimpieza]]></Name>
+					<Name><![CDATA[sectorLimpieza]]></Name>
 					<X>739</X><Y>921</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -29123,7 +29123,7 @@ datasetCOLA.add(root.tmeCAJA.distribution.mean());]]></AfterSimulationRunCode>
 					<ShowLabel>true</ShowLabel>
 					<ResourceReference>
 						<PackageName><![CDATA[tpi]]></PackageName>
-						<ClassName><![CDATA[C:/Users/ignac/.AnyLogicProfessional/Workspace8.6/Anylogic/gallega/salidaAnylogic.xlsx]]></ClassName>
+						<ClassName><![CDATA[C:/Users/tinch/Models/Anylogic/salidaAnylogic.xlsx]]></ClassName>
 					</ResourceReference>
 					<SaveInSnapshot>false</SaveInSnapshot>
 					<LoadOnStartup>true</LoadOnStartup>
@@ -29377,8 +29377,8 @@ excelFile.writeDataSet(datasetCOLA, "Hoja1", 1, 3);]]></AfterExperimentCode>
 				<StopOption><![CDATA[Stop at specified time]]></StopOption>
 				<InitialDate><![CDATA[1597017600000]]></InitialDate>	
 				<InitialTime><![CDATA[0.0]]></InitialTime>	
-				<FinalDate><![CDATA[1597047600000]]></FinalDate>	
-				<FinalTime><![CDATA[30000.0]]></FinalTime>	
+				<FinalDate><![CDATA[1597027600000]]></FinalDate>	
+				<FinalTime><![CDATA[10000.0]]></FinalTime>	
 			</ModelTimeProperties>
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
@@ -29492,11 +29492,11 @@ excelFile.writeDataSet(datasetCOLA, "Hoja1", 1, 3);]]></AfterExperimentCode>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 		</Resource>
 		<Resource>
-			<Path><![CDATA[C:/Users/ignac/.AnyLogicProfessional/Workspace8.6/Anylogic/gallega/salidaAnylogic.xlsx]]></Path>
+			<Path><![CDATA[3d/ticket_vending_machine_2.dae]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 		</Resource>
 		<Resource>
-			<Path><![CDATA[3d/ticket_vending_machine_2.dae]]></Path>
+			<Path><![CDATA[C:/Users/tinch/Models/Anylogic/salidaAnylogic.xlsx]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 		</Resource>
 	</ModelResources>
