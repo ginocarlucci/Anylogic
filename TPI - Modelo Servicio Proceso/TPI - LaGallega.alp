@@ -2272,13 +2272,13 @@
 						<Point><X>30</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>380</Y></Point>
 						<Point><X>-908</X><Y>380</Y></Point>
-						<Point><X>-950</X><Y>370</Y></Point>
+						<Point><X>-950</X><Y>380</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604613646401</Id>
 					<Name><![CDATA[connector42]]></Name>
-					<X>2270</X><Y>2170</Y>
+					<X>2270</X><Y>2180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2305,9 +2305,9 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>10</Y></Point>
-						<Point><X>-30</X><Y>120</Y></Point>
-						<Point><X>10</X><Y>120</Y></Point>
+						<Point><X>-30</X><Y>0</Y></Point>
+						<Point><X>-30</X><Y>110</Y></Point>
+						<Point><X>10</X><Y>110</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -4082,7 +4082,7 @@ cajaEspecial += 1;]]></Code>
 				<EmbeddedObject>
 					<Id>1600294334929</Id>
 					<Name><![CDATA[tmeSISTEMA]]></Name>
-					<X>2240</X><Y>2150</Y>
+					<X>2240</X><Y>2160</Y>
 					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5155,7 +5155,7 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorBebidas]]></Code>
+								<Code><![CDATA[servicesLimpieza]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5999,7 +5999,7 @@ estadisticas_sistema.add(N_Sistema, time());]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorAperitivos]]></Code>
+								<Code><![CDATA[sectorBodega]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6115,7 +6115,7 @@ this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorAlmacen]]></Code>
+								<Code><![CDATA[sectorConservas]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6231,7 +6231,7 @@ this.cantidadProductosConservas += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorBodega]]></Code>
+								<Code><![CDATA[sectorPerfumeria]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20756,7 +20756,7 @@ this.cantidadProductosPerfumeria += ped.cantidadProductosComprados;]]></Code>
 				<ServiceWithArea>
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1602689243556</Id>
-					<Name><![CDATA[sectorAperitivos]]></Name>
+					<Name><![CDATA[sectorPerfumeria]]></Name>
 					<X>556</X><Y>929</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>

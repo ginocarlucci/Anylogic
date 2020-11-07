@@ -5233,7 +5233,7 @@ this.cantidadProductosSnacks += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorBebidas]]></Code>
+								<Code><![CDATA[servicesLimpieza]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6193,7 +6193,7 @@ this.cantidadProductosBodega += ped.cantidadProductosComprados;]]></Code>
 						<Parameter>
 							<Name><![CDATA[services]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[sectorAlmacen]]></Code>
+								<Code><![CDATA[sectorConservas]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
